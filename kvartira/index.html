@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=1600, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kvartira</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+ <div class="left__bar"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header_block">
+        <div class="header_logo">
+          <a href="#"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+        <ul class="header_menu">
+          <li class="header_item"><a href="#" class="header_item-link">Арендодателям</a></li>
+          <li class="header_item"><a href="#require" class="header_item-link">Арендаторам</a></li>
+          <li class="header_item"><a href="#require" class="header_item-link">Как это работает?</a></li>
+          <li class="header_item"><a href="#" class="header_item-link">Помощь</a></li>
+        </ul>
+        <div class="header_info">
+          <a href="#"><img src="img/icon/bell.svg" alt="bell"></a>
+          <a href="#" class="header_info-icon"><img src="img/icon/person.svg" alt="person"></a>
+          <div class="header_info-name">Иванов Н. С. <a href="#"><img src="img/icon/down.svg" alt="down"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="next">
+    <div class="container">
+      <div class="next_item">
+        <a href="#" class="next_item-icon"><img src="img/icon/left.svg" alt="left"> Назад без сохранения</a></div>
+    </div>
+  </div>
+
+  <div class="addproperty">
+    <div class="container">
+      <div class="addproperty_block">
+        <h1 class="addproperty_title">Добавить объект недвижимости</h1>
+        <p class="addproperty_text">Все поля формы обязательны для выполнения,Вы можете заполнить поля вручную или загрузить данные из ЕРГН,<br>
+        Для проверки данных об объекте недвижимости ЕРГН укажите Кадастровый номер или Адрес нажмите "Загрузить из ЕГРН".<br>
+        Данные  будут активированны по результатам проверки.</p>
+      </div>
+      <hr>
+      <form id="form" class="cadastral" action="#" method="post">
+        <p>
+        <label for="cadastral_num" class="cadastral_name">Кадастровый номер<a href="#" class="cadastral_icon"><img src="img/icon/info.svg" alt="info"></a></label>
+          <input type="text" id="cadastral_num" class="cadastral_num" name="cadastral_num" placeholder="47:14:1203001:814"/>
+        </p>
+        <p class="cadastral_subtitle">или</p>
+        <p>
+        <label for="cadastral_num" class="cadastral_address">Адрес</label>
+          <input type="text" id="cadastral_num" class="cadastral_num" name="cadastral_num" placeholder="Московская обл., Москва, ул. Александра Лукьянова 3"/>
+        </p>
+        <p class="cadastral_search">Не нашли адрес?<a href="#"> Укажите вручную</a></p>
+        <button class="cadastral_button"><img src="img/icon/refresh.svg"><span> Загрузить из ЕГРН</span></button>
+      </form>
+      <hr>
+      <div class="premises_radio">
+        <div class="premises_radio-text">Тип помещения</div>
+        <div class="premises_radio-button">
+          <div>
+            <input type="radio" name="cadastral" id="premises_radio1" checked />
+            <label for="premises_radio1">Жилое</label>
+          </div>
+          <div>
+            <input type="radio" name="cadastral" id="premises_radio2" />
+            <label for="premises_radio2">Нежилое</label>
+          </div>
+        </div> 
+      </div>
+      <div class="realestate_radio">
+        <div class="realestate_radio-text">Тип недвижемости</div>
+        <div class="realestate_radio-button">
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio1" checked />
+            <label for="realestate-radio1">Квартира</label>
+          </div>
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio2" />
+            <label for="realestate-radio2">Комната</label>
+          </div>
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio3" />
+            <label for="realestate-radio3">Апартаменты</label>
+          </div>
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio4" />
+            <label for="realestate-radio4">Дом</label>
+          </div>
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio5" />
+            <label for="realestate-radio5">Парковка</label>
+          </div>
+          <div>
+            <input type="radio" name="realestate" id="realestate-radio6" />
+            <label for="realestate-radio6">Земельный участок</label>
+          </div>
+        </div> 
+      </div> 
+      <hr>
+      <div class="options">
+        <div class="options_title">
+          <img src="img/icon/inform.svg" alt="inform">
+          <p>Дополнительные параметры</p>
+          <a href="#"><img src="img/icon/up.svg" alt="up"></a>
+        </div>
+        <p class="options_text">Дополнительные параметры не обязательны к заполнению. Однако полная информация об объекте недвижимости повысит его привлекательность для потенциальных арендаторов и риэлторов, которые подыскивают подходящие предложения.</p>
+      </div> 
+    </div>
+  </div>
+
+  <div class="object">
+    <div class="container">
+      <div class="object_title">Об объекте</div>
+      <form id="form_object-rooms" class="object" action="#" method="post">
+        <div class="rooms_radio">
+          <div class="rooms_radio-text">Количество комнат</div>
+          <div class="rooms_radio-button">
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio1"/>
+              <label for="rooms-radio1">1</label>
+            </div>
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio2" />
+              <label for="rooms-radio2">2</label>
+            </div>
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio3" />
+              <label for="rooms-radio3">3</label>
+            </div>
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio4" />
+              <label for="rooms-radio4">4</label>
+            </div>
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio5" />
+              <label for="rooms-radio5">5+</label>
+            </div>
+            <div>
+              <input type="radio" name="rooms" id="rooms-radio6" />
+              <label for="rooms-radio6">Студия</label>
+            </div>
+          </div>
+        </div>
+        <div class="object_subtext">
+          <p>Общая</p>
+          <p>Жилая</p>
+          <p>Кухня</p>
+        </div>
+        <div class="object_number">
+          <label for="object_square" class="object_square">Площадь</label>
+          <input type="number" id="object_square" class="object_square-num" name="object_square-total" placeholder="                 м²"/>
+          <input type="number" id="object_square" class="object_square-num" name="object_square-residential" placeholder="                 м²"/>
+          <input type="number" id="object_square" class="object_square-num" name="object_square-kitchen" placeholder="                 м²"/> 
+        </div>
+        <div class="object_number">
+          <label for="object_floor" class="object_floor">Этаж</label>
+          <input type="number" id="object_floor" class="object_floor-num" name="object_floor"/>
+          <span>из</span>
+          <input type="number" id="object_floor" class="object_floor-num" name="object_floor_of"/>
+        </div>
+        <div class="repairs_radio">
+          <div class="repairs_radio-text">Ремонт</div>
+          <div class="repairs_radio-button">
+            <div>
+              <input type="radio" name="repairs" id="repairs-radio1"/>
+              <label for="repairs-radio1">Косметический</label>
+            </div>
+            <div>
+              <input type="radio" name="repairs" id="repairs-radio2" />
+              <label for="repairs-radio2">Евроремонт</label>
+            </div>
+            <div>
+              <input type="radio" name="repairs" id="repairs-radio3" />
+              <label for="repairs-radio3">Дизайнерский</label>
+            </div>
+            <div>
+              <input type="radio" name="repairs" id="repairs-radio4" />
+              <label for="repairs-radio4">Требуется</label>
+            </div>
+          </div>
+        </div>
+        <div class="separatebathroom_radio">
+          <div class="separatebathroom_radio-text">Раздельный санузел</div>
+          <div class="separatebathroom_radio-button">
+            <div>
+              <input type="radio" name="separatebathroom" id="separatebathroom-radio1"/>
+              <label for="separatebathroom-radio1">1</label>
+            </div>
+            <div>
+              <input type="radio" name="separatebathroom" id="separatebathroom-radio2" />
+              <label for="separatebathroom-radio2">2</label>
+            </div>
+            <div>
+              <input type="radio" name="separatebathroom" id="separatebathroom-radio3" />
+              <label for="separatebathroom-radio3">3</label>
+            </div>
+            <div>
+              <input type="radio" name="separatebathroom" id="separatebathroom-radio4" />
+              <label for="separatebathroom-radio4">4</label>
+            </div>
+            <div>
+              <input type="radio" name="separatebathroom" id="separatebathroom-radio5" />
+              <label for="separatebathroom-radio5">5</label>
+            </div>
+          </div>
+        </div>
+        <div class="сombinedbathroom_radio">
+          <div class="сombinedbathroom_radio-text">Совмещённый санузел</div>
+          <div class="сombinedbathroom_radio-button">
+            <div>
+              <input type="radio" name="сombinedbathroom" id="сombinedbathroom-radio1"/>
+              <label for="сombinedbathroom-radio1">1</label>
+            </div>
+            <div>
+              <input type="radio" name="сombinedbathroom" id="сombinedbathroom-radio2" />
+              <label for="сombinedbathroom-radio2">2</label>
+            </div>
+            <div>
+              <input type="radio" name="сombinedbathroom" id="сombinedbathroom-radio3" />
+              <label for="сombinedbathroom-radio3">3</label>
+            </div>
+            <div>
+              <input type="radio" name="сombinedbathroom" id="сombinedbathroom-radio4" />
+              <label for="сombinedbathroom-radio4">4</label>
+            </div>
+            <div>
+              <input type="radio" name="сombinedbathroom" id="сombinedbathroom-radio5" />
+              <label for="сombinedbathroom-radio5">5</label>
+            </div>
+          </div>
+        </div>
+        <div class="loggia_radio">
+          <div class="loggia_radio-text">Лоджия</div>
+          <div class="loggia_radio-button">
+            <div>
+              <input type="radio" name="loggia" id="loggia-radio1"/>
+              <label for="loggia-radio1">Есть</label>
+            </div>
+            <div>
+              <input type="radio" name="loggia" id="loggia-radio2" />
+              <label for="loggia-radio2">Нет</label>
+            </div>
+          </div>
+        </div>
+        <div class="balcony_radio">
+          <div class="balcony_radio-text">Балкон</div>
+          <div class="balcony_radio-button">
+            <div>
+              <input type="radio" name="balcony" id="balcony-radio1"/>
+              <label for="balcony-radio1">Есть</label>
+            </div>
+            <div>
+              <input type="radio" name="balcony" id="balcony-radio2" />
+              <label for="balcony-radio2">Нет</label>
+            </div>
+          </div>
+        </div>
+        <div class="window_radio">
+          <div class="window_radio-text">Окна выходят</div>
+          <div class="window_radio-button">
+            <div>
+              <input type="radio" name="window" id="window-radio1"/>
+              <label for="window-radio1">Во двор</label>
+            </div>
+            <div>
+              <input type="radio" name="window" id="window-radio2" />
+              <label for="window-radio2">На улицу</label>
+            </div>
+            <div>
+              <input type="radio" name="window" id="window-radio3" />
+              <label for="window-radio3">В обе стороны</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="facilities">
+    <div class="container">
+      <div class="facilities_block">
+        <div class="facilities_title">Удобства</div>
+        <form id="form_facilities" class="facilities_form" action="#" method="post">
+          <div>
+          <label for="facilities_check1">
+            <input type="checkbox" id="facilities_check1">Мебель в комнатах</label>
+          <label for="facilities_check2"><input type="checkbox" id="facilities_check2">Мебель на кухне</label>
+          <label for="facilities_check3"><input type="checkbox" id="facilities_check3">Встроенная техника на кухне</label>
+          <label for="facilities_check4"><input type="checkbox" id="facilities_check4">Посудомоечная машина</label>
+        </div>
+        <div>
+          <label for="facilities_check5"><input type="checkbox" id="facilities_check5">Интернет</label>
+          <label for="facilities_check6"><input type="checkbox" id="facilities_check6">Телевизор</label>
+          <label for="facilities_check7"><input type="checkbox" id="facilities_check7">Телефон</label>
+          <label for="facilities_check8"><input type="checkbox" id="facilities_check8">Холодильник</label>
+          <label for="facilities_check9"><input type="checkbox" id="facilities_check9">Стиральная машина</label>
+        </div>
+        <div>
+          <label for="facilities_check10"><input type="checkbox" id="facilities_check10">Ванна</label>
+          <label for="facilities_check11"><input type="checkbox" id="facilities_check11">Душевая кабина</label>
+          <label for="facilities_check12"><input type="checkbox" id="facilities_check12">Кондиционер</label>
+          <label for="facilities_check13"><input type="checkbox" id="facilities_check13">Сигнализация</label>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section class="task">
+    <div class="container">
+      <div class="task_block">
+        <div class="task_title">О здании</div>
+        <form id="task_form" class="task_form" action="#" method="post">
+          <p>
+            <label for="task_complex" class="task_complex-name">Кадастровый номер</label>
+            <input type="text" id="task_complex" class="task_complex-num" name="task_complex-name" placeholder="Введите название ЖК"/>
+          </p>
+          <p>
+            <label for="task_construction" class="task_construction-name">Год постройки</label>
+            <input type="number" id="task_construction" class="task_construction-num" name="task_construction-num"/>
+          </p>
+          <p>
+            <label for="task_ceiling" class="task_ceiling-name">Высота потолков</label>
+            <input type="number" id="task_ceiling" class="task_ceiling-num" name="task_ceiling-num" placeholder="               м"/>
+          </p>
+          <div class="housetype_radio">
+            <div class="housetype_radio-text">Тип дома</div>
+            <div class="housetype_radio-button">
+              <div>
+                <input type="radio" name="housetype" id="housetype-radio1"/>
+                <label for="housetype-radio1">Монолит</label>
+              </div>
+              <div>
+                <input type="radio" name="housetype" id="housetype-radio2" />
+                <label for="housetype-radio2">Кирпич</label>
+              </div>
+              <div>
+                <input type="radio" name="housetype" id="housetype-radio3" />
+                <label for="housetype-radio3">Панель</label>
+              </div>
+              <div>
+                <input type="radio" name="housetype" id="housetype-radio4" />
+                <label for="housetype-radio4">Блок</label>
+              </div>
+              <div>
+                <input type="radio" name="housetype" id="housetype-radio5" />
+                <label for="housetype-radio5">Дерево</label>
+              </div>
+            </div>
+          </div>
+          <div class="parking_radio">
+            <div class="parking_radio-text">Парковка</div>
+            <div class="parking_radio-button">
+              <div>
+                <input type="radio" name="parking" id="parking-radio1"/>
+                <label for="parking-radio1">Наземная</label>
+              </div>
+              <div>
+                <input type="radio" name="parking" id="parking-radio2" />
+                <label for="parking-radio2">Многоуровневая</label>
+              </div>
+              <div>
+                <input type="radio" name="parking" id="parking-radio3" />
+                <label for="parking-radio3">На крыше</label>
+              </div>
+              <div>
+                <input type="radio" name="parking" id="parking-radio4" />
+                <label for="parking-radio4">Резидентская</label>
+              </div>
+              <div>
+                <input type="radio" name="parking" id="parking-radio5" />
+                <label for="parking-radio5">Отсутствует</label>
+              </div>
+            </div>
+          </div>
+          <div class="additionally_radio">
+            <div class="additionally_radio-text">Парковка</div>
+            <div class="additionally_form">
+              <div class="additionally_box">
+                <label for="additionally_check1">
+                  <input type="checkbox" id="additionally_check1">Пандус</label>
+                <label for="additionally_check2"><input type="checkbox" id="additionally_check2">Охрана/Консьерж</label>
+              </div>
+              <div class="additionally_box">
+                <label for="additionally_check3">
+                  <input type="checkbox" id="additionally_check3">Закрытая территория</label>
+                <label for="additionally_check4"><input type="checkbox" id="additionally_check4">Мусоропровод</label>
+              </div>
+              <div class="additionally_box">
+                <label for="additionally_check5">
+                  <input type="checkbox" id="additionally_check5">Пассажирский лифт</label>
+                <label for="additionally_check6"><input type="checkbox" id="additionally_check6">Грузовой лифт</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="availability">
+    <div class="container">
+      <div class="availability_block">
+        <div class="availability_title">Транспортная доступность</div>
+        <form id="availability_form" class="availability" action="#" method="post">
+          <div class="availability_radio">
+            <div class="availability_radio-text">Наземный транспорт</div>
+            <div class="availability_radio-button">
+              <div>
+                <input type="radio" name="availability" id="availability-radio1"/>
+                <label for="availability-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="availability" id="availability-radio2" />
+                <label for="availability-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <hr>
+        <form id="availability_form" class="availability" action="#" method="post">
+          <div class="railway_radio">
+            <div class="railway_radio-text">Метро</div>
+            <div class="railway_radio-button">
+              <div>
+                <input type="radio" name="railway" id="railway-radio1"/>
+                <label for="railway-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="railway" id="railway-radio2" />
+                <label for="railway-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <hr>
+        <form id="availability_form" class="availability" action="#" method="post">
+          <div class="underground_radio">
+            <div class="underground_radio-text">Ж/д транспорт</div>
+            <div class="underground_radio-button">
+              <div>
+                <input type="radio" name="underground" id="underground-radio1"/>
+                <label for="underground-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="underground" id="underground-radio2" />
+                <label for="underground-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="rent">
+    <div class="container">
+      <div class="rent_block">
+        <div class="rent_title">О здании</div>
+        <form id="rent_form" class="rent_form" action="#" method="post">
+          <p>
+            <label for="rent_complex" class="rent_complex-name">Минимальный срок аренды</label>
+            <input type="number" id="rent_complex" class="rent_complex-num" name="rent_complex-name" placeholder="                 мес."/>
+          </p>
+          <div class="rent_radio-button">
+            <div>
+              <input type="radio" name="rent" id="rent-radio1"/>
+              <label for="rent-radio1">Дней</label>
+            </div>
+            <div>
+              <input type="radio" name="rent" id="rent-radio2" />
+              <label for="rent-radio2">Месяцев</label>
+              </div>
+          </div>
+        </form>
+        <div class="price_title">Условия сделки</div>
+        <form id="price_form" class="price_form" action="#" method="post">
+          <p>
+            <label for="price_complex" class="price_complex-name">Цена</label>
+            <input type="number" id="price_complex" class="price_complex-num" name="price_complex-name" placeholder="                       ₽/мес."/>
+          </p>
+          <div class="sublease_radio">
+            <div class="sublease_radio-text">Возможна субаренда</div>
+            <div class="sublease_radio-button">
+              <div>
+                <input type="radio" name="sublease" id="sublease-radio1"/>
+                <label for="sublease-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="sublease" id="sublease-radio2" />
+                <label for="sublease-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+          <p>
+            <label for="paymentamount_complex" class="paymentamount_complex-name">Размер обеспечительного платежа<a href="#" class="paymentamount_complex-icon"><img src="img/icon/info.svg" alt="info"></a></label>
+            <input type="number" id="paymentamount_complex" class="paymentamount_complex-num" name="paymentamount_complex-name" placeholder="          100%"/>
+          </p>
+
+          <div class="payments_radio">
+            <div class="payments_radio-text">Коммунальные платежи</div>
+            <div class="payments_radio-button">
+              <div>
+                <input type="radio" name="payments" id="payments-radio1"/>
+                <label for="payments-radio1">Включены</label>
+              </div>
+              <div>
+                <input type="radio" name="payments" id="payments-radio2" />
+                <label for="payments-radio2">Не включены</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="imgs">
+    <div class="container">
+      <div class="imgs_block">
+        <div class="imgs_title">Фотографии </div>
+        <form id="imgs_form" class="imgs_form" action="#" method="post">
+            <div class="imgs_box">
+              <img src="img/icon/img.svg">
+              <input type="file" id="imgs_complex" class="imgs_complex-num" name="imgs_complex-name"/>
+            </div>
+        </form>
+        <div class="description_title">
+          <div class="description_title-left">Описание</div>
+          <div class="description_title-right">0 \ 1500 символов</div>
+        </div>
+        <form id="description_form" class="description_form" action="#" method="post">
+            <div class="description_box">
+              <textarea id="description_complex" class="description_complex-num" name="description_complex-name" maxlength="1500" placeholder="Расскажите подробнее об объекте: преимущества или особенности, особые условия, инфраструктура района,  транспортная доступность, состояние ремонта и т.д."></textarea>
+            </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="privacy">
+    <div class="container">
+      <div class="privacy_block">
+        <div class="privacy_title">Приватность</div>
+        <form id="privacy_form" class="privacy_form" action="#" method="post">
+          <div class="realtoravailability">
+            <div class="realtoravailability_radio-text">
+              <img src="img/icon/home.svg"><p>Доступность для просмотра риэлторам</p><a href="#"><img src="img/icon/info.svg"></a>
+              </div>
+            <div class="realtoravailability_radio-button">
+              <div>
+                <input type="radio" name="realtoravailability" id="realtoravailability-radio1"/>
+                <label for="realtoravailability-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="realtoravailability" id="realtoravailability-radio2" />
+                <label for="realtoravailability-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+          <div class="viewobject">
+            <div class="viewobject_radio-text">
+              <img src="img/icon/lock.svg"><p>Доступ к просмотру объекта недвижимости</p>
+              </div>
+            <div class="viewobject_radio-button">
+              <div>
+                <input type="radio" name="viewobject" id="viewobject-radio1"/>
+                <label for="viewobject-radio1">Всем</label>
+              </div>
+              <div>
+                <input type="radio" name="viewobject" id="viewobject-radio2"/>
+                <label for="viewobject-radio2">Только контактам</label>
+              </div>
+              <div>
+                <input type="radio" name="viewobject" id="viewobject-radio3"/>
+                <label for="viewobject-radio3">Конкретным контактам</label>
+              </div>
+              <div>
+                <input type="radio" name="viewobject" id="viewobject-radio4"/>
+                <label for="viewobject-radio4">Только мне</label>
+              </div>
+            </div>
+          </div>
+          <div class="propertybylink">
+            <div class="propertybylink_radio-text">
+              <img src="img/icon/access.png"><p>Объект недвижимости доступен по ссылке</p>
+              </div>
+            <div class="propertybylink_radio-button">
+              <div>
+                <input type="radio" name="propertybylink" id="propertybylink-radio1"/>
+                <label for="propertybylink-radio1">Да</label>
+              </div>
+              <div>
+                <input type="radio" name="propertybylink" id="propertybylink-radio2" />
+                <label for="propertybylink-radio2">Нет</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="blocks">
+    <div class="container">
+      <div class="blocks_item">
+        <form id="blocks_form" class="blocks_form" action="#" method="post">
+          <div class="blocks">
+            <div class="blocks_radio-button">
+              <div>
+                <input type="radio" name="blocks" id="blocks-radio1"/>
+                <label for="blocks-radio1">Отмена</label>
+              </div>
+              <div>
+                <input type="radio" name="blocks" id="blocks-radio2" checked />
+                <label for="blocks-radio2">Добавить</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_blocks">
+        <div class="footer_blocks-left">
+          <div class="portal">
+            <div class="portal_title">О портале</div>
+            <ul class="portal_nav">
+              <li class="portal_nav-item"><a href="" class="portal_nav-link">Как это работает?</a></li>
+              <li class="portal_nav-item"><a href="" class="portal_nav-link">Журнал о аренде</a></li>
+              <li class="portal_nav-item"><a href="" class="portal_nav-link">Помощь</a></li>
+              <li class="portal_nav-item"><a href="" class="portal_nav-link">Контактная информация</a></li>
+            </ul>
+          </div>
+          <div class="service">
+            <div class="service_title">Работа с сервисом</div>
+            <ul class="service_nav">
+              <li class="service_nav-item"><a href="" class="service_nav-link">Собственникам</a></li>
+              <li class="service_nav-item"><a href="" class="service_nav-link">Арендаторам</a></li>
+              <li class="service_nav-item"><a href="" class="service_nav-link">Агентствам недвижимости</a></li>
+              <li class="service_nav-item"><a href="" class="service_nav-link">Поставщикам услуг</a></li>
+            </ul>
+          </div>
+          <div class="documentation">
+            <div class="documentation_title">Работа с сервисом</div>
+            <ul class="documentation_nav">
+              <li class="documentation_nav-item"><a href="" class="documentation_nav-link">Политика конфиденциальности</a></li>
+              <li class="documentation_nav-item"><a href="" class="documentation_nav-link">Согласие на обработку данных</a></li>
+              <li class="documentation_nav-item"><a href="" class="documentation_nav-link">Агентствам недвижимости</a></li>
+              <li class="documentation_nav-item"><a href="" class="documentation_nav-link">Условия пользования сервисом</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_blocks-right">
+          <div class="download">
+            <div class="download_title">Скачайте приложение</div>
+            <div class="download_google">
+              <a href="#"><img src="img/icon/google.svg" alt=""><div>Google Play</div></a>
+            </div>
+            <div class="download_app">
+              <a href="#"><img src="img/icon/app.svg" alt="">App Store</a>
+            </div>
+          </div>
+          <div class="paymentservices">
+            <div class="paymentservices_title">Скачайте приложение</div>
+              <a href="#"><img src="img/icon/visa.svg" alt=""></a>
+              <a href="#"><img src="img/icon/mastercard.svg" alt=""></a>
+              <a href="#"><img src="img/icon/mir.png" alt=""></a>
+          </div>
+          <hr>
+          <div class="companyinformation">
+            <div class="companyinformation_text">© ООО "Цифровые Технологии" - Организация АО “ДОМ.РФ”, оператор единой информационной системы учета договоров найма (поднайма) жилых помещений, 2019 г</div>
+              <a href="#"><img src="img/icon/group.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </footer>
+</body>
+</html>
