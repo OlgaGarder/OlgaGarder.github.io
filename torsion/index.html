@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Torsion</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header class="header">
+        <section class="header_menu">
+            <div class="container">
+                <div class="header_menu_logo">
+                    <img src="img/Group.svg"  >
+                </div>
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#">Продукты</a>
+                    <a class="nav_link" href="#">Гарантии</a>
+                    <a class="nav_link" href="#">Доставка</a>
+                    <a class="nav_link" href="#">Контакты</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            
+                <div class="header_menu_contacts">
+                    <div class="header_menu_contacts_adress">
+                    
+                        <a  class="header_menu_contacts_adress_icon">
+                            <img src="img/maps.png" >
+                        </a>
+                        Санкт-Петербруг
+                        <!--
+                        <span class="header_menu_contacts_adress_it"><svg width="154" height="1" viewBox="0 0 154 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="154" y2="0.5" stroke="black" stroke-dasharray="2 3"/>
+                            </svg>
+                        </span>
+                    -->
+                    </div>
+                    <div class="header_menu_contacts_connect">
+                        <span class="header_menu_contacts_connect_ph"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6187 13.435L13.9934 10.8093C13.4704 10.2885 12.6045 10.3043 12.0633 10.8456L10.7406 12.168C10.6571 12.122 10.5706 12.0739 10.4796 12.0228C9.64438 11.56 8.50119 10.9257 7.29822 9.72184C6.09168 8.51545 5.45676 7.37049 4.99254 6.5347C4.94355 6.44615 4.89662 6.36078 4.85027 6.27971L5.73798 5.39331L6.17441 4.95635C6.71639 4.41422 6.73133 3.54849 6.20963 3.02615L3.58425 0.400181C3.06254 -0.121428 2.19617 -0.105604 1.6542 0.436518L0.914273 1.18069L0.934493 1.20076C0.686387 1.51734 0.479062 1.88247 0.324777 2.27621C0.182556 2.65101 0.0940092 3.00866 0.053521 3.36705C-0.293144 6.24098 1.02016 8.86753 4.58429 12.4317C9.511 17.3581 13.4813 16.9859 13.6526 16.9678C14.0256 16.9232 14.3831 16.834 14.7464 16.6929C15.1368 16.5405 15.5016 16.3334 15.818 16.0859L15.8342 16.1002L16.5838 15.3662C17.1246 14.8242 17.1402 13.9581 16.6187 13.435Z" fill="black"/>
+                            </svg>
+                        </span>
+                        <a href="tel:+7 777 777 77 77" class="header_menu_contacts_connect_num">
+                            +7 777 777 77 77
+                        </a>
+                        <button class="header_menu_contacts_connect_btn header_menu_contacts_connect_sub" type="button" id="consultation">
+                            Связаться с менеджером
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="info">
+        <div class="container">
+            <div class="info_inner">
+                <h1 class="info_heading">
+                    Атозапчасти "PK TOP"<br>
+                    и TORQUE <span class="info_heading_opt">ОПТОМ</span>
+                </h1>
+                <div class="info_text">
+                    В наличии <span class="info_text_col">более 1 500 наименований</span><br>
+                    для самых популярных автомобилей<br>
+                    России и СНГ
+                </div>
+                <div class="info_btn">
+                    <button class="info_btn_wrap" type="button" id="info_btn" data-modal="consultation">
+                        Связаться с менеджером
+                    </button>
+                    <div class="info_btn_tell">
+                        <button class="info_btn_tell_submit" type="button" id="info_btn">
+                            <span class="info_btn_pho"><svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.167 12.5033C26.167 19.4082 20.5259 25.0058 13.5658 25.0058C11.357 25.0058 9.2822 24.4409 7.47605 23.4516L0.5 25.667L2.77402 18.9571C1.62738 17.0739 0.967023 14.8627 0.967023 12.5025C0.96786 5.59758 6.60728 0 13.5674 0C20.5267 0.00167392 26.167 5.59841 26.167 12.5033ZM13.5649 1.99363C7.72379 1.99363 2.97237 6.70906 2.97237 12.5058C2.97237 14.8058 3.72229 16.935 4.99028 18.6675L3.66789 22.5703L7.73718 21.2772C9.4111 22.3752 11.4139 23.0147 13.5649 23.0147C19.4061 23.0147 24.1591 18.3001 24.1591 12.5033C24.1608 6.70906 19.4069 1.99363 13.5649 1.99363ZM19.9291 15.3833C19.8505 15.2569 19.6446 15.1799 19.3366 15.0259C19.0294 14.8719 17.5087 14.1312 17.2266 14.0308C16.942 13.9278 16.7362 13.8759 16.5303 14.1831C16.3269 14.4903 15.7343 15.1799 15.5527 15.3858C15.3727 15.5909 15.1928 15.6168 14.884 15.4653C14.5751 15.3096 13.5791 14.9882 12.399 13.9446C11.4809 13.131 10.8607 12.1292 10.6816 11.822C10.5 11.5157 10.6632 11.35 10.8163 11.1977C10.9544 11.0596 11.1252 10.8394 11.28 10.6595C11.4349 10.4812 11.4859 10.3548 11.5889 10.1498C11.6901 9.94474 11.6391 9.76647 11.5629 9.61163C11.4859 9.45763 10.8691 7.9511 10.6105 7.33761C10.3535 6.72496 10.0966 6.82623 9.91578 6.82623C9.73584 6.82623 9.52994 6.80112 9.32405 6.80112C9.11816 6.80112 8.78338 6.87561 8.50132 7.18278C8.21927 7.48994 7.42081 8.23065 7.42081 9.73885C7.42081 11.2487 8.52643 12.7042 8.68127 12.9084C8.83694 13.1118 10.8189 16.3081 13.9583 17.5351C17.0994 18.7613 17.0994 18.352 17.6652 18.3001C18.2326 18.2482 19.4931 17.5594 19.7492 16.8446C20.007 16.1265 20.007 15.5113 19.9291 15.3833Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <!--
+                <form id="consultation-form" class="info_btn_form" action="#"></form>
+                    <div class="info_btn_des">
+                        <p class="info_btn_des_text">
+                            Заполните форму
+                        </p>
+                        и менеджер свяжаться<br> 
+                        с Вами в ближайшее время
+                    </div>
+                    <input name="name" required placeholder=" Имя" type="text"> 
+                    <input name="phone" required placeholder="Номер телефона">
+
+                    <button class="info_btn_form_wrap info_btn_form_sub" type="button" id="info_btn">
+                        Связаться с менеджером
+                    </button>
+                    <button class="info_btn_form_tell info_btn_form_submit" type="button" id="info_btn">
+                        <img src="img/whats.png">
+                    </button>
+                    <p class="info_btn_form_text">
+                        Нажимая на кнопку вы соглашаетесь<br>
+                        с условиями политики конфиденциальности 
+                    </p>
+                </form>
+            -->
+            </div>
+            <div class="info_inners">
+                    <div class="info_img">
+                        <div  class="info_img_logo">
+                            
+                            <img src="img/info-logo.png" alt="info-logo">
+                        
+                        </div>
+                        <div  class="info_img_top">
+                            
+                            <img src="img/info-top.jpg" alt="info-top">
+                        
+                        </div>
+                    </div>
+                <div  class="info_item">
+                    
+                    <img src="img/mash.png" alt="info" height="400">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="block">
+        <div class="container">
+            <div class="block_flex">
+                <div class="block_item">
+                    <div class="block_item_one">
+                        <p class="block_item_one_text">
+                            Более
+                        </p>
+                        <div class="block_item_one_num">
+                            10 млн.
+                        </div>
+                        <p class="block_item_one_inf">
+                            автозапчастей
+                        </p>
+                    </div>
+                    <div class="block_item_two">
+                        <p class="block_item_one_text">
+                            Более
+                        </p>
+                        <div class="block_item_one_num">
+                            550
+                        </div>
+                        <p class="block_item_one_inf">
+                            городов<br> обслуживаем 
+                        </p>
+                    </div>
+                    <div class="block_item_free">
+                        <p class="block_item_one_text">
+                            Более
+                        </p>
+                        <div class="block_item_one_num">
+                            45
+                        </div>
+                        <p class="block_item_one_inf">
+                            сотрудников<br> в штате  
+                        </p>
+                    </div>
+                    <div class="block_item_fou">
+                        <p class="block_item_one_text">
+                            Более
+                        </p>
+                        <div class="block_item_one_num">
+                            1 500
+                        </div>
+                        <p class="block_item_one_inf">
+                            наименований<br> продукции  
+                        </p>
+                    </div>
+                    <div class="block_item_five">
+                        <p class="block_item_one_text">
+                            Более
+                        </p>
+                        <div class="block_item_one_num">
+                            986
+                        </div>
+                        <p class="block_item_one_inf">
+                            постоянных<br> клиентов  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <h2 class="main_heading">
+                Почему выбирают <span>Торсион</span>
+            </h2>
+            <div class="main_inner">
+                <div class="main_info">
+                    <div class="main_info_one">
+                        <a href="" class="main_info_one_img">
+                            <img src="img/one.jpg" alt="one">
+                        </a>
+                        <p class="main_info_one_text">
+                            Гарантия на все<br> 
+                            товары на 1 год
+                        </p>
+                    </div>
+                    <div class="main_info_two">
+                        <a href="" class="main_info_two_img">
+                        <img src="img/two..jpg"  alt="two"> 
+                        </a>
+                        <p class="main_info_two_text">
+                            Более 1 500 товарных<br>
+                            позиций в наличии 
+                        </p>
+                    </div>
+                    <div class="main_info_free">
+                        <a href="" class="main_info_two_img">
+                        <img src="img/free.jpg"  alt="free"> 
+                        </a>
+                        <p class="main_info_free_text">
+                            Заработаете<br>
+                            на  20% больше
+                        </p>
+                    </div>
+                </div>
+                <div class="main_block">
+                    <div class="main_block_one">
+                        <a href="" class="main_block_one_img">
+                        <img src="img/min.png"  alt="fou"> 
+                        </a>
+                        <p class="main_block_one_text">
+                            Менеджеры действительно<br>
+                            ВСЕГДА на связи
+                        </p>
+                    </div>
+                    <div class="main_block_two">
+                        <a href="" class="main_block_two_img">
+                        <img src="img/five.jpg"  alt="five"> 
+                        </a>
+                        <p class="main_block_two_text">
+                            Минимальная сумма<br>
+                            заказа на 30 000 р
+                        </p>
+                    </div>
+                    <div class="main_block_free">
+                        <a href="" class="main_block_free_img">
+                        <img src="img/six.jpg"  alt="free"> 
+                        </a>
+                        <p class="main_block_free_text">
+                            Вы работаете напрямую<br> 
+                            с производителем
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <h2 class="work_heading">
+                Как мы  <span>работаем</span>
+            </h2>
+            <p class="work_text">
+                Мы знаем, что нужно владельцам автобизнеса и всегда готовы предложить<br>
+                необходимые детали для качесивенного обслуживания клиентов.
+            </p>
+        </div>
+    </section>
+    <section class="order">
+        <div  class="order_img">
+            <img src="img/vid-1.jpg" alt="vid-1" height="1200" width="900">
+        </div>
+        <div class="container">
+            <div class="order_block">
+                <div class="order_block_one">
+                    <button class="order_block_one_btn order_block_submit" type="button" id="order_btn">
+                        <span class="order_block_submit"><svg width="27" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27 15.5L0.749999 30.6554L0.75 0.344555L27 15.5Z" fill="white"/>
+                            </svg>
+                        </span>
+                     </button>
+                </div>
+                <div class="order_block_two">
+                    <div class="order_block_two_request">
+                        <!--
+                        <div class="order_block_two_request_img">
+                           <span class="order_block_two_request_img_icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="url(#paint0_linear)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="5" y1="3.5" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF7A00"/>
+                                <stop offset="1" stop-color="#C20029"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            </span>
+                        </div>
+                    -->
+                        <p class="order_block_two_request_title">
+                            Заявка
+                        </p>
+                        <p class="order_block_two_request_text">
+                            Вы оставляете заявку на сайте и свободный<br>
+                            менеджер связывается с Вами в ближайшее время
+                        </p>
+                    </div>
+                    <div class="order_block_two_item">
+                        <!--
+                        <a class="order_block_two_item_img">
+                           <span class="order_block_two_item_img_icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="url(#paint0_linear)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="5" y1="3.5" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF7A00"/>
+                                <stop offset="1" stop-color="#C20029"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            </span>
+                        </a>
+                    -->
+                        <p class="order_block_two_request_title">
+                            Заказ
+                        </p>
+                        <p class="order_block_two_request_text">
+                            Менеджер подберет необходимые автозапчасти под<br>
+                            цели Вашего бизнеса и произведет расчет 
+                            стоимости
+                        </p>
+                    </div>
+                    <div class="order_block_two_pay">
+                        <!--
+                        <a class="order_block_two_pay_img">
+                           <span class="order_block_two_pay_img_icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="url(#paint0_linear)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="5" y1="3.5" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF7A00"/>
+                                <stop offset="1" stop-color="#C20029"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            </span>
+                        </a>
+                    -->
+                        <p class="order_block_two_request_title">
+                            Оплата
+                        </p>
+                        <p class="order_block_two_request_text">
+                            Мы можем предложить различные условия и<br>
+                            графики платежей, а Вы оплатить любым удобным 
+                            Вам способом
+                        </p>
+                    </div>
+                    <div class="order_block_two_delivery">
+                        <!--
+                        <a class="order_block_two_delivery_img">
+                           <span class="order_block_two_delivery_img_icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="url(#paint0_linear)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="5" y1="3.5" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF7A00"/>
+                                <stop offset="1" stop-color="#C20029"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            </span>
+                        </a>
+                    -->
+                        <p class="order_block_two_request_title">
+                            Доставка
+                        </p>
+                        <p class="order_block_two_request_text">
+                            Мы собираем Ваш заказ и отправляем в любую<br>
+                            точку России и СНГ в течение 24 часов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a  class="order_fon">
+            <img src="img/vidd-2.png" alt="vid-2" height="900">
+        </a>
+    </section>
+    <section class="download">
+        <div class="container">
+            <div class="download_inf">
+                <p class="download_inf_text">
+                    Ознакомьтесь с нашим<br> ассортиментом <span>ПРЯМО СЕЙЧАС</span>
+                </p>
+                <button class="download_btn download_sub" type="button" id="download_btn">
+                    скачать прайс-лист
+                </button>
+                <button class="download_button download_submit" type="button" id="download_button">
+                    <img src="img/whats.png">
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog_heading">
+                Каталог <span>продукции</span>
+            </h2>
+            <div class="catalog_block">
+                <form></form>
+                
+            
+            <div class="catalog_mark">
+                <div class="catalog_mark_one">
+                    <div  class="catalog_mark_one_img">
+                        <img src="img/Слой 39.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_two">
+                    <div  class="catalog_mark_two_img">
+                        <img src="img/Слой 40.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_free">
+                    <div  class="catalog_mark_free_img">
+                        <img src="img/Слой 41.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_fou">
+                    <div  class="catalog_mark_fou_img">
+                        <img src="img/Слой 42.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_five">
+                    <div  class="catalog_mark_five_img">
+                        <img src="img/Слой 43.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_six">
+                    <div  class="catalog_mark_six_img">
+                        <img src="img/Слой 44.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_sev">
+                    <div  class="catalog_mark_sev_img">
+                        <img src="img/Слой 45.png" alt="mark">
+                    </div>
+                </div>
+                <div class="catalog_mark_elen">
+                    <div  class="catalog_mark_elen_img">
+                        <img src="img/Слой 46.png" alt="mark">
+                    </div>
+                </div>
+            </div>
+            <div class="catalog_auto">
+                <div class="catalog_auto_one">
+                    <div  class="catalog_auto_one_img">
+                        <img src="img/Слой 47.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_two">
+                    <div  class="catalog_auto_two_img">
+                        <img src="img/Слой 48.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_free">
+                    <div  class="catalog_auto_free_img">
+                        <img src="img/Слой 49.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_fou">
+                    <div  class="catalog_auto_fou_img">
+                        <img src="img/Слой 50.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_five">
+                    <div  class="catalog_auto_five_img">
+                        <img src="img/Слой 51.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_six">
+                    <div  class="catalog_auto_six_img">
+                        <img src="img/Слой 52.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_sev">
+                    <div  class="catalog_auto_sev_img">
+                        <img src="img/Слой 53.png" alt="auto">
+                    </div>
+                </div>
+                <div class="catalog_auto_elen">
+                    <div  class="catalog_auto_elen_img">
+                        <img src="img/Слой 54.png" alt="auto">
+                    </div>
+                </div>
+            </div>
+            <div class="catalog_log">
+                <div class="catalog_log_one">
+                    <div class="catalog_log_one_img">
+                        <img src="img/Слой 55.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_two">
+                    <div class="catalog_log_two_img">
+                        <img src="img/Слой 56.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_free">
+                    <div class="catalog_log_free_img">
+                        <img src="img/Слой 57.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_fou">
+                    <div class="catalog_log_fou_img">
+                        <img src="img/Слой 58.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_five">
+                    <div class="catalog_log_five_img">
+                        <img src="img/Слой 59.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_six">
+                    <div class="catalog_log_six_img">
+                        <img src="img/Слой 60.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_sev">
+                    <div class="catalog_log_sev_img">
+                        <img src="img/Слой 61.png" alt="log">
+                    </div>
+                </div>
+                <div class="catalog_log_elen">
+                    <div class="catalog_log_elen_img">
+                        <img src="img/Слой 62.png" alt="log">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="quality">
+        <div class="container">
+            <h2 class="quality_heading">
+                Гарантия <span>качества</span>
+            </h2>
+            <p class="quality_text">
+                Мы дорожим своей репутацией и планируем только долгосрочные отношения с каждым<br>
+                клиентом, поэтому уделяем огромное внимание качеству поставляемого товара.<br>
+                Вы будете работать напрямую с производителями.
+            </p>
+        </div>
+        <div class="quality_carousel">
+                <div class="quality_carousel_inner">
+                    <div>
+                        <img src="img/slider  5.png" alt="slide">
+                    </div>
+                    <div>
+                        <img src="img/slider  1.png" alt="slide">
+                    </div>
+                    <div>
+                        <img src="img/slider  2.png" alt="slide">
+                    </div>
+                    <div>
+                        <img src="img/slider  3.png" alt="slide">
+                    </div>
+                    <div>
+                        <img src="img/slider  4.png" alt="slide">
+                    </div>
+                    <div>
+                        <img src="img/slider 6.png" alt="slide">
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="pay">
+        <div class="container">
+            <div class="pay_block">
+                <div class="pay_big">
+                    <p class="pay_big_heading">
+                        Хотите зарабатывать <span>больше</span>?
+                    </p>
+                    <p class="pay_big_part">
+                        Наши партнеры зарабатывают <span>на 20% больше,</span><br>
+                        чем Вы зарабатываете сейчас.
+                    </p>
+                    <p class="pay_big_prod">
+                        Если вы хотите зарабатывать больше –<br>
+                        работайте напрямую с производителем.
+                    </p>
+                    <p class="pay_big_contacts">
+                        Введите контактные данные, менеджер<br> 
+                        свяжется с Вами в ближайшее время и уточнит<br> 
+                        всю интересующую Вас информацию
+                    </p>
+                </div>
+                <div class="pay_form">
+                    <div class="pay_form_des">
+                        <p class="pay_form_des_text">
+                            Заполните форму
+                        </p>
+                        <p class="pay_form_des_texts">
+                            и менеджер свяжаться<br> 
+                            с Вами в ближайшее время
+                        </p>
+                    </div>
+                    <form id="consultation-form" class="pay_form_btn" action="#">
+                        <input name="name" required placeholder=" Имя" type="text"> 
+                        <input name="phone" required placeholder="Номер телефона">
+                    </form>
+                        <button class="pay_form_wrap pay_form_sub" type="button" id="pay_btn">
+                            Связаться с менеджером
+                        </button>
+                        <button class="pay_form_tell pay_form_submit" type="button" id="pay_btn">
+                            <img src="img/whats.png">
+                        </button>
+                        <p class="pay_form_text">
+                            Нажимая на кнопку вы соглашаетесь<br>
+                            с условиями политики конфиденциальности 
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cooper">
+        <div class="container">
+            <p class="cooper_heading">
+                <span>Сотрудничаем</span> со всеми участниками ритейла
+            </p>
+            <div class="cooper_bl">
+                <div class="cooper_bl_one">
+                    <div  class="cooper_bl_one_img">
+                        <img src="img/sotr-1.png" alt="sotr">
+                    </div>
+                    <p class="cooper_bl_one_text">
+                        Торговым<br> компаниям
+                    </p>
+                </div>
+                <div class="cooper_bl_two">
+                    <div  class="cooper_bl_two_img">
+                        <img src="img/sotr-2.png" alt="sotr">
+                    </div>
+                    <p class="cooper_bl_two_text">
+                       СТО
+                    </p>
+                </div>
+                <div class="cooper_bl_free">
+                    <div  class="cooper_bl_free_img">
+                        <img src="img/sotr-3.png" alt="sotr">
+                    </div>
+                    <p class="cooper_bl_free_text">
+                        Автопарками
+                    </p>
+                </div>
+                <div class="cooper_bl_fou">
+                    <div  class="cooper_bl_fou_img">
+                        <img src="img/sotr-4.png" alt="sotr">
+                    </div>
+                    <p class="cooper_bl_fou_text">
+                        Заводами
+                    </p>
+                </div>
+            </div>
+            <button class="cooper_btn cooper_sub" type="button" id="cooper_btn">
+                Получите коммерческое предложение
+            </button>
+            <button class="cooper_tell cooper_submit" type="button" id="cooper_btn">
+                <img src="img/whats.png">
+            </button>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container">
+            <div class="sale_block">
+                <p class="sale_heading">
+                        Нажна рассрочка <span>на оптовую закупку?</span>
+                    </p>
+                    <div  class="sale_form">
+                        <form id="consultation-form" class="sale_form_btn" action="#">
+                            <input name="name" required placeholder=" Имя" type="text"> 
+                            <input name="phone" required placeholder="Номер телефона">
+
+                            <button class="sale_form_wrap  sale_form_sub" type="button" id="sale_btn">
+                                Связаться с менеджером
+                            </button>
+                            <button class="sale_form_tell sale_form_submit" type="button" id="sale_btn">
+                                <img src="img/whats.png">
+                            </button>
+                            <p class="sale_form_text">
+                                Нажимая на кнопку вы соглашаетесь с условиями политики конфиденциальности 
+                            </p>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="torsion">
+        <div class="container">
+            <p class="torsion_title">
+                Торсион – <span>эксклюзивный дистрибьютор</span><br>
+                финских автозапчастей в РФ
+            </p>
+            <div class="torsion_text">
+                <p class="torsion_text_one">
+                    С 2011 года мы предлагаем широкий ассортимент<br> 
+                    компонентов Torque и Grand Prix как для самых<br> 
+                    популярных автомобилей последнего десятилетия, так и<br> 
+                    для автомобилей, выпущенных в 90-х и 2000-х годах, в<br> 
+                    том числе отечественного производства.
+                </p>
+                <p class="torsion_text_two">
+                    Также в нашей группе компаний есть производитель<br> 
+                    ремонтных комплектов РК ТОР для различных узлов<br> 
+                    автомобиля, в конструкцию которых входят подшипники.
+                </p>
+                <p class="torsion_free">
+                    Миссия компании - поставка качественных<br> 
+                    автомобильных запчастей по привлекательным ценам.
+                </p>
+            </div>
+            <button class="torsion_btn torsion_submit" type="button" id="torsion_btn">
+                <span class="torsion_bl_submit"><svg width="27" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M27 15.5L0.749999 30.6554L0.75 0.344555L27 15.5Z" fill="white"/>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <p class="partners_title">
+                С нами <span>работают</span>
+            </p>
+            <div class="partners_log">
+                <div class="partners_log_one">
+                    <div class="partners_log_one_block">
+                        <div  class="partners_log_one_block_img">
+                            <img src="img/Слой 28.png">
+                        </div>
+                        <p class="partners_log_one_block_text">
+                            Компания «Партком»,<br> 
+                            г. Нижний Новгород
+                        </p>
+                    </div>
+                    <div class="partners_log_one_auto">
+                        <div  class="partners_log_one_auto_img">
+                            <img src="img/Слой 29.png">
+                        </div>
+                        <p class="partners_log_one_auto_text">
+                            Компания «АвтоСоюз»,<br>
+                             г. Ростов-на-Дону
+                        </p>
+                    </div>
+                    <div class="partners_log_one_plain">
+                        <div  class="partners_log_one_plain_img">
+                            <img src="img/Слой 30.png">
+                        </div>
+                        <p class="partners_log_one_plain_text">
+                            Компания «Планета Авто»,<br>
+                            г. Березовский
+                        </p>
+                    </div>
+                    <div class="partners_log_one_dars">
+                        <div  class="partners_log_one_dars_img">
+                            <img src="img/Слой 31.png">
+                        </div>
+                        <p class="partners_log_one_dars_text">
+                            Компания АО «ДАРС»,<br>
+                            г. Уфа
+                        </p>
+                    </div>
+                </div>
+                <div class="partners_log_two">
+                    <div class="partners_log_two_euro">
+                        <a  class="partners_log_one_euro_img">
+                            <img src="img/Слой 32.png">
+                        </a>
+                        <p class="partners_log_two_euro_text">
+                            Компания «ЕвроАвто»,<br>
+                            г. Санкт-Петербург
+                        </p>
+                    </div>
+                    <div class="partners_log_two_avanta">
+                        <a  class="partners_log_one_avanta_img">
+                            <img src="img/Слой 33.png">
+                        </a>
+                        <p class="partners_log_two_avanta_text">
+                            Компания «Аванта Премиум»,<br> 
+                            г. Челябинск
+                        </p>
+                    </div>
+                    <div class="partners_log_two_agi">
+                        <a  class="partners_log_one_agi_img">
+                            <img src="img/Слой 34.png">
+                        </a>
+                        <p class="partners_log_two_agi_text">
+                            Компания ТД «Агидель-Авто»,<br> 
+                            г. Уфа
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="write">
+        <div class="container">
+                <div class="write_info">
+                    <p class="write_info_title">
+                        <span>Напиши</span> нам
+                    </p>
+                    <p class="write_info_text">
+                        в любом удобном мессенджере прямо сейчас
+                    </p>
+                    <button class="write_info_what write_info_sub" type="button" id="wtite_btn">
+                        <img src="img/whats.png">
+                    </button>
+                    <button class="write_info_vk write_info_submit" type="button" id="wtite_btn">
+                       <img src="img/vk.png">
+                    </button>
+                    <div class="write_info_add">
+                        <div  class="write_info_add_img">
+                            <img src="img/maps.png" height="20" width="20">
+                        </div>
+                        <div class="write_info_addres">
+                            <p class="write_info_addres_texts">
+                                г. Санкт-Петербург, ул. Lorem Ipsum, д. 11, оф. 109
+                            </p>
+                            <p class="write_info_addres_style">
+                                Пн-Сб, 10:00 - 22:00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="write_info_order">
+                        <a href="tel:+7 777 777 77 77" class="write_info_order_num">
+                            +7 777 777 77 77
+                        </a>
+                        <button class="write_info_order_btn  write_info_order_sub" type="button" id="write_btn">
+                            заказать Обратный звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <div class="write_map">
+                    <a  class="write_map_img">
+                        <img src="img/map (2).png" height="350">
+                    </a>
+                    <div class="write_map_icons">
+                    </div>
+                </div>
+        <section>
+
+    <section class="one">
+        <div class="container">
+            <div class="one_sale">
+                <p class="one_sale_title">
+                   <b> Узнай первым</b> о наших скидках и акциях
+                </p>
+                <p class="one_sale_text">
+                    Будь в курсе последних новостей и приближающихся акциях компании Торсион
+                </p>
+                <button class="one_sale_btn  one_sale_sub" type="button" id="write_sale__btn">
+                   <img src="img/vk.png">
+                   ВКОНТАКТЕ
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <!---
+            <div  class="footer_line">
+                <img src="img/line.png" width="1500">
+            </div> 
+        -->
+        <div class="footer_block">
+            <p class="footer_prav">
+                © 2019   |   Все права защищены
+            </p>
+            <div class="footer_author">
+                <p class="footer_author_text">
+                    Задизайнено<br>
+                        и разработано
+                    </p>
+                    <a class="footer_author_logo">
+                        <svg width="56" height="34" viewBox="0 0 56 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M55.6891 0L36.2648 31.9627L35.0267 33.9999L33.8279 31.9402L27.9244 21.7976L21.7621 31.9615L20.5484 33.9634L19.3365 31.9604L0 0H3.28394L20.5509 28.5398L26.7337 18.3422L30.8743 11.3734L32.088 9.33065L33.3093 11.369L35.065 14.2992L43.8039 0H47.0965L36.2629 17.7267L35.041 19.7262L33.8368 17.7164L32.0982 14.8148L29.5794 19.054L35.0792 28.5034L52.4013 0H55.6891ZM32.5932 0L21.7597 17.7267L20.5416 19.7197L19.3355 17.7198L8.64871 0H11.9299L20.5577 14.3058L29.3005 0H32.5932Z" fill="url(#paint0_linear)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear" x1="49.8881" y1="-5.40908" x2="22.0831" y2="42.5228" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6ED5FF"/>
+                            <stop offset="1" stop-color="#0392CC"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle"> Заполните форму</div>
+            <div class="modal__descr">и менеджер свяжеться<br>с Вами в ближайшее время</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" placeholder="имя" type="text"> 
+                <input name="phone" placeholder="номер телефон"> 
+
+                <button class="modal_button modal_submit">Связаться с менеджером</button>
+                <button class="modal_tell" type="button">
+                    <img src="img/whats.png">
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
