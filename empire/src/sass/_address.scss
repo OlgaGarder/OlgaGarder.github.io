@@ -1,0 +1,79 @@
+.address{
+    position: relative;
+    margin-top: 112px;
+    &_title_text{
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+    &_map{
+        margin-top: 70px;
+    }
+    &_map_icons{
+        margin-left: 595px;
+        transform: translate(-50%, -390%);
+        cursor: pointer;
+    }
+    &_logo{
+        margin-bottom: 43px;
+        display: flex;
+    }
+    &_logo_heading{
+        width: 258px;
+        margin: 6px;
+        span{
+            margin: 12px;
+            color: #000000;
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+    &_logo_icons{
+        margin-top: 20px;
+    }
+    &_info{
+        position: relative;
+        float: right;
+        margin-left: 500px;
+        margin-top: -50px;
+    }
+    &_info_phone{
+        margin-top: -60px;
+        width: 199px;
+        height: 41px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        background-color: #ffb41d;
+    }
+    &_info_phone_icon{
+        padding-top:15px;
+        padding-left: 15px;
+    }
+    &_info_phone_btn{
+        text-align: center;
+        margin-left: 10px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 900;
+    }
+    &_info_mail{
+        margin-top: 6px;
+        margin-left: 32px;
+        width: 167px;
+        height: 41px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        background-color: #000000;
+    }
+    &_info_mail_icon{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    &_info_mail_c-mail{
+        color: #ffffff;
+        padding-left: 22px;
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}

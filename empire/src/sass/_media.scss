@@ -1,0 +1,1464 @@
+@media (max-width: 991px){
+    .header{
+        &_nav_menu_item{
+            font-size: 17px;
+        }
+        &_fon{
+            min-width: 120%;
+        }
+    }
+    .main{
+        &_img_two{
+            display: none;
+            margin-top: -1750px;
+            margin-right: -150px;
+        }
+        &_block{
+            margin-top: 300px;
+        }
+        &_title{
+            margin-top: -300px;
+            margin-left: 50px;
+        }
+        &_title_text{
+            margin-left: 25px;
+            margin-bottom: 5px;
+        }
+        &_goal{
+            margin-left: 25px;
+        }
+        &_goal_btn{
+            margin-left: 70px;
+            width: 200px;
+            height: 52px;
+           padding: 15px 17px;
+        }
+        
+        &_door_btn{
+            margin-left: 100px;
+            width: 200px;
+            height: 52px;
+            padding: 13px 65px ;
+        }
+        &_grat_btn{
+            float: right;
+            margin-right: 80px;
+            width: 200px;
+            height: 52px;
+            padding: 13px 60px ;
+        }
+        &_req{
+            margin-left: 25px;  
+        }
+        &_fances_btn{
+            margin-left: 70px;
+            width: 200px;
+            height: 52px;
+            padding: 15px 68px;
+        }
+        
+        &_canopy_btn{
+            margin-left: 100px;
+            width: 200px;
+            height: 52px;
+            padding: 13px 25px ;
+        }
+        &_bed_btn{
+            float: right;
+            margin-right:  80px;
+            width: 200px;
+            height: 52px;
+            padding: 13px 60px ;
+        }
+        &_chair{
+            margin-left: 25px;
+        }
+        &_chair_btn{
+            margin-left: 70px;
+        }
+        &_chair_btn_button{
+            width: 200px;
+            height: 52px;
+            padding: 12px 30px ;
+        }
+    }
+    .work{
+        &_line{
+            width: 120%;
+        }
+        &_title{
+            margin-left: 50px;
+        }
+        &_block{
+            margin-left: 50px;
+        }
+        &_lines{
+            width: 120%;
+        }
+    }
+    .address{
+        &_title{
+            margin-left: 50px;
+        }
+        &_map{
+           margin-left: 25px;
+        }
+        &_logo{
+           margin-left: 50px;
+        }
+    }
+    .footer{
+        width: 120%;
+    }
+
+}
+@media (max-width: 767px){
+
+#header_nav_toggle{
+    top: 107px;
+    opacity: 0;
+    z-index: 9999;
+    position: fixed;
+    left: 127px;
+}
+
+.header_nav_btn > span,
+.header_nav_btn > span::before,
+.header_nav_btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+
+.header_nav_btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.header_nav_btn > span::before {
+  content: '';
+  top: -8px;
+}
+.header_nav_btn > span::after {
+  content: '';
+  top: 8px;
+}
+.header_nav_menu {
+    visibility: hidden;
+    display: block;
+    margin-top: -57px;
+    margin-bottom: 0;
+    width: 260px;
+    padding-left: 80px;
+}
+
+
+#header_nav_toggle:checked ~ .header_nav_btn > span {
+  transform: rotate(45deg);
+}
+#header_nav_toggle:checked ~ .header_nav_btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#header_nav_toggle:checked ~ .header_nav_btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#header_nav_toggle:checked ~ .header_nav_menu {
+  visibility: visible;
+  left: 0;
+}
+        .header{
+            &_logo{
+                margin: 80px;
+                margin-left: 450px;
+            }
+            &_logo_heading{
+                width: 258px;
+                margin: 6px;
+                span{
+                    font-size: 20px;
+                }
+            }
+            &_info{
+                margin-right: -200px;
+                margin-top: 50px;
+            }
+            &_info_phone{
+                margin-top: -60px;
+                width: 350px;
+                height: 70px;
+            }
+            &_info_phone_icon{
+                height: 40px;
+                padding-left: 10px;
+                padding-top: 15px;
+            }
+            &_info_phone_btn{
+                padding-top: 25px;
+                margin-left: 20px;
+                font-size: 35px;
+            }
+            &_info_mail{
+                margin-top: -70px;
+                margin-left: 382px;
+                width: 280px;
+                height: 70px;
+            }
+            &_info_mail_icon{
+                padding-top: 15px;
+                padding-left: 35px;
+                height: 40px;
+            }
+            &_info_mail_c-mail{
+                padding-left: 22px;
+                font-size: 30px;
+                
+            }
+            &_info_icons{
+                text-align: center;
+                margin-top: 20px;
+            }
+            &_fons{
+                display: none;
+            }
+            &_fon{
+                margin-top: 250px;
+                min-width: 200%;
+            }
+
+
+
+    }
+    .main{
+        &_block{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        &_title_icons{
+            width: 15px;
+            margin-left: 150px;
+        }
+        &_title_text{
+            width: 350px;
+        }
+        &_wrap{
+            display: inline-block;
+            margin-left: 300px;
+        }
+        &_goal_one{
+            width: 600px;
+            margin-left: -20px;
+        }
+        &_door_one{
+            width: 600px;
+        }
+        &_grat_one{
+            width: 600px;
+        }
+        &_goal_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 80px ;
+        }
+        &_door_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 150px ;
+        }
+        &_grat_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 150px ;
+            margin-right: 115px;
+        }
+        &_req{
+            display: inline-block;
+            margin-left: 300px;
+        }
+        &_fances_one{
+            width: 600px;
+            
+        }
+        &_canopy_one{
+            width: 600px;
+            margin-top: 40px;
+        }
+        &_bed_one{
+            width: 600px;
+            margin-top: 40px;
+        }
+        &_fances_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            margin-left: 110px;
+            padding: 13px 150px ;
+        }
+        &_canopy_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 90px ;
+            
+        }
+        &_bed_btn{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 150px ;
+            margin-right: 115px;
+        }
+        &_chair{
+            margin-left: 300px;
+        }
+        &_chair_one{
+            width: 600px;
+        }
+        &_chair_btn_button{
+            width: 380px;
+            height: 58px;
+            font-size: 25px;
+            padding: 13px 90px ;
+            margin-left: 40px;
+        }
+        &_img_two{
+            display: none;
+        }
+
+    }
+    .work{
+        &_line{
+            width: 200%;
+        }
+        &_block{
+            display: inline-block;
+            margin-left: 400px;
+        }
+        &_title_icons{
+            width: 15px;
+            margin-left: 50px;
+        }
+        &_title_text{
+            width: 350px;
+        }
+        &_info_one_icons{
+            height: 140px;
+        }
+        &_info_one_icon{
+            margin-left: -95px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_info_one_block_title{
+            font-size: 40px;
+            margin-left: 50px;
+            width: 400px;
+        }
+        &_info_one_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_two{
+            margin-top: 40px;
+        }
+        &_info_two_icons{
+            height: 140px;
+        }
+        &_info_two_icon{
+            margin-left: -95px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_info_two_block_title{
+            font-size: 40px;
+            margin-left: 50px;
+            width: 400px;
+        }
+        &_info_two_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_free{
+            margin-top: 40px;
+        }
+        &_info_free_icons{
+            height: 140px;
+        }
+        &_info_free_icon{
+            margin-left: -105px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_info_free_block_title{
+            font-size: 40px;
+            margin-left: 50px;
+        }
+        &_info_free_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_fou{
+            margin-top: 40px;
+        }
+        &_info_fou_icons{
+            height: 140px;
+        }
+        &_info_fou_icon{
+            margin-left: -105px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_info_fou_block_title{
+            font-size: 40px;
+            margin-left: 50px;
+        }
+        &_info_fou_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic{
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+        &_servic_one_icons{
+            height: 140px;
+        }
+        &_servic_one_icon{
+            margin-left: -100px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_servic_one_block_title{
+            font-size: 40px;
+            width: 500px;
+            margin-left: 50px;
+        }
+        &_servic_one_block_text{
+            margin-top: 15px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic_two{
+            margin-top: 40px;
+        }
+        &_servic_two_icons{
+            height: 140px;
+        }
+        &_servic_two_icon{
+            margin-left: -100px;
+            margin-top: 30px;
+            height: 75px;
+        }
+        &_servic_two_block_title{
+            font-size: 40px;
+            width: 500px;
+            margin-left: 50px;
+        }
+        &_servic_two_block_text{
+            margin-top: 15px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic_free{
+            margin-top: 40px;
+        }
+        &_servic_free_icons{
+            height: 140px;
+        }
+        &_servic_free_icon{
+            margin-left: -110px;
+            margin-top: 40px;
+            height: 65px;
+        }
+        &_servic_free_block_title{
+            font-size: 40px;
+            width: 500px;
+            margin-left: 50px;
+        }
+        &_servic_free_block_text{
+            margin-top: 15px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_lines{
+            width: 200%;
+        }
+
+    }
+    .address{
+        &_title_icons{
+            width: 15px;
+        }
+        &_title_text{
+            width: 450px;
+        }
+        &_map{
+            margin-left: 180px;
+        }
+        &_logo{
+            display: inline-block;
+            margin-left: 250px;
+        }
+        &_logo_heading{
+            width: 258px;
+            margin: 6px;
+            span{
+                margin: 12px;
+                font-size: 25px;
+            }
+        }
+        &_info{
+            margin-right: -340px;
+            margin-top: -150px;
+        }
+        &_info_phone{
+            margin-top: -60px;
+            width: 350px;
+            height: 70px;
+        }
+        &_info_phone_icon{
+            height: 40px;
+            padding-left: 35px;
+        }
+        &_info_phone_btn{
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        &_info_mail{
+            margin-top: 16px;
+            margin-left: 75px;
+            width: 280px;
+            height: 60px;
+        }
+        &_info_mail_icon{
+            padding-top: 15px;
+            padding-left: 35px;
+            height: 30px;
+        }
+        &_info_mail_c-mail{
+            padding-left: 22px;
+            padding-top: 15px;
+            font-size: 30px;
+            
+        }
+    }
+    .footer{
+        width: 200%;
+        height: 80px;
+        &_title{
+            font-size: 25px;
+            margin-left: -55px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .header{
+            &_nav_menu {
+                visibility: hidden;
+                display: block;
+                margin-top: -57px;
+                margin-bottom: 0;
+                width: 260px;
+                padding-left: 0;
+            }
+            &_logo{
+                margin: 80px;
+                margin-left: 350px;
+            }
+            &_logo_heading{
+                width: 258px;
+                margin: 6px;
+                span{
+                    font-size: 20px;
+                }
+            }
+            &_info{
+                margin-right: -290px;
+                margin-top: 50px;
+            }
+            &_info_phone{
+                margin-top: -60px;
+                width: 350px;
+                height: 70px;
+            }
+            &_info_phone_icon{
+                height: 40px;
+                padding-left: 10px;
+                padding-top: 15px;
+            }
+            &_info_phone_btn{
+                padding-top: 25px;
+                margin-left: 20px;
+                font-size: 35px;
+            }
+            &_info_mail{
+                margin-top: -70px;
+                margin-left: 382px;
+                width: 280px;
+                height: 70px;
+            }
+            &_info_mail_icon{
+                padding-top: 15px;
+                padding-left: 35px;
+                height: 40px;
+            }
+            &_info_mail_c-mail{
+                padding-left: 22px;
+                font-size: 30px;
+                
+            }
+            &_info_icons{
+                text-align: center;
+                margin-top: 20px;
+            }
+            &_fons{
+                display: none;
+            }
+            &_fon{
+                margin-top: 250px;
+                min-width: 200%;
+            }
+    }
+    .main{
+        &_title_icons{
+            width: 15px;
+            margin-left: 50px;
+        }
+        &_title_text{
+            width: 380px;
+            margin-left: 90px;
+            margin-top: -100px;
+        }
+        &_wrap{
+            display: inline-block;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        &_goal_one{
+            width: 700px;
+            margin-left: -20px;
+        }
+        &_door_one{
+            width: 700px;
+            margin-top: 25px;
+        }
+        &_grat_one{
+            width: 700px;
+            margin-top: 25px;
+        }
+        &_goal_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 20px 100px ;
+        }
+        &_door_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 20px 190px ;
+        }
+        &_grat_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 15px 180px ;
+            margin-right: 95px;
+        }
+        &_req{
+            display: inline-block;
+            margin-left: 100px;
+        }
+        &_fances_one{
+            width: 700px;
+            margin-top: 25px;
+        }
+        &_canopy_one{
+            width: 700px;
+            margin-top: 50px;
+        }
+        &_bed_one{
+            width: 700px;
+            margin-top: 50px;
+        }
+        &_fances_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            margin-left: 110px;
+            padding: 15px 180px ;
+        }
+        &_canopy_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 15px 110px ;
+            
+        }
+        &_bed_btn{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 15px 180px ;
+            margin-right: 115px;
+        }
+        &_chair{
+            margin-left: 100px;
+        }
+        &_chair_one{
+            width: 700px;
+            margin-top: 25px;
+        }
+        &_chair_btn_button{
+            margin-top: 50px;
+            width: 500px;
+            height: 85px;
+            font-size: 35px;
+            padding: 15px 120px ;
+            margin-left: 20px;
+        }
+        &_img_two{
+            display: none;
+        }
+
+    }
+    .work{
+        &_line{
+            width: 200%;
+        }
+        &_title_icons{
+            width: 15px;
+            margin-left: 50px;
+        }
+        &_title_text{
+            width: 400px;
+        }
+        &_block{
+            margin-left: 180px;
+        }
+        &_title_icons{
+            width: 15px;
+            margin-left: 50px;
+        }
+        &_info_one_icons{
+            height: 180px;
+        }
+        &_info_one_icon{
+            margin-left: -120px;
+            margin-top: 40px;
+            height: 90px;
+        }
+        &_info_one_block{
+            margin-top: -50px;
+        }
+        &_info_one_block_title{
+            font-size: 50px;
+            width: 600px;
+            margin-left: 50px;
+        }
+        &_info_one_block_text{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_two{
+            margin-top: 50px;
+        
+        }
+        &_info_two_icons{
+            height: 180px;
+        }
+        &_info_two_icon{
+            margin-left: -120px;
+            margin-top: 50px;
+            height: 90px;
+        }
+        &_info_two_block{
+            margin-top: -50px;
+        }
+        &_info_two_block_title{
+            font-size: 50px;
+            width: 600px;
+            margin-left: 50px;
+        }
+        &_info_two_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_free{
+            margin-top: 50px;
+        }
+        &_info_free_icons{
+            height: 180px;
+        }
+        &_info_free_icon{
+            margin-left: -130px;
+            margin-top: 50px;
+            height: 90px;
+        }
+        &_info_free_block{
+            margin-top: -50px;
+        }
+        &_info_free_block_title{
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        &_info_free_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_info_fou{
+            margin-top: 50px;
+        }
+        &_info_fou_icons{
+            height: 180px;
+        }
+        &_info_fou_icon{
+            margin-left: -130px;
+            margin-top: 45px;
+            height: 95px;
+        }
+        &_info_fou_block{
+            margin-top: -50px;
+        }
+        &_info_fou_block_title{
+            font-size: 50px;
+            margin-left: 50px;
+
+        }
+        &_info_fou_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic{
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+        &_servic_one_icons{
+            height: 180px;
+        }
+        &_servic_one_icon{
+            margin-left: -120px;
+            margin-top: 50px;
+            height: 90px;
+        }
+        &_servic_one_block{
+            margin-top: -50px;
+        }
+        &_servic_one_block_title{
+            font-size: 50px;
+            width: 600px;
+            margin-left: 50px;
+        }
+        &_servic_one_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic_two{
+            margin-top: 50px;
+        }
+        &_servic_two_icons{
+            height: 180px;
+        }
+        &_servic_two_icon{
+            margin-left: -120px;
+            margin-top: 50px;
+            height: 90px;
+        }
+        &_servic_two_block{
+            margin-top: -50px;
+        }
+        &_servic_two_block_title{
+            font-size: 50px;
+            width: 600px;
+            margin-left: 50px;
+        }
+        &_servic_two_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_servic_free{
+            margin-top: 50px;
+        }
+        &_servic_free_icons{
+            height: 180px;
+        }
+        &_servic_free_icon{
+            margin-left: -140px;
+            margin-top: 50px;
+            height: 80px;
+        }
+        &_servic_free_block{
+            margin-top: -50px;
+        }
+        &_servic_free_block_title{
+            font-size: 50px;
+            width:600px;
+            margin-left: 40px;
+        }
+        &_servic_free_block_text{
+            margin-top: 20px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        &_lines{
+            width: 200%;
+        }
+    }
+    .address{
+        &_title_icons{
+            width: 10px;
+        }
+        &_title_text{
+            width: 450px;
+            margin-top: -80px;
+            margin-left: 30px;
+        }
+        &_map{
+        display: none;
+        }
+        &_map_min{
+            margin-top: 70px;
+            margin-left: 150px;
+            min-height: 500px;
+            min-width: 800px;
+	        background: url('../img/map_min.png') center (center / cover) no-repeat;
+        }
+        &_logo{
+            display: inline-block;
+            margin-left: 100px;
+            margin-top: 80px;
+        }
+        &_logo_heading{
+            width: 250px;
+            margin: 6px;
+            span{
+                margin: 12px;
+                font-size: 30px;
+            }
+        }
+        &_logo_icons{
+            height: 80px;
+        }
+        &_info{
+            display: inline-block;
+            margin-right: -380px;
+            margin-top: -200px;
+        }
+        &_info_phone{
+            margin-top: -60px;
+            width: 350px;
+            height: 70px;
+        }
+        &_info_phone_icon{
+            height: 40px;
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+        &_info_phone_btn{
+            padding-top: 25px;
+            margin-left: 20px;
+            font-size: 35px;
+        }
+        &_info_mail{
+            margin-top: 16px;
+            margin-left: 75px;
+            width: 280px;
+            height: 70px;
+        }
+        &_info_mail_icon{
+            padding-top: 15px;
+            padding-left: 35px;
+            height: 40px;
+        }
+        &_info_mail_c-mail{
+            padding-left: 22px;
+            font-size: 30px;
+            
+        }
+    }
+    .footer{
+        width: 200%;
+        height: 100px;
+        &_title{
+            font-size: 27px;
+            margin-top: 20px;
+            margin-left: -55px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .header_nav_menu {
+        visibility: hidden;
+        display: block;
+        margin-top: -57px;
+        margin-bottom: 54px;
+    }
+}
+@media (max-width: 320px){
+    .header{
+        &_logo{
+            margin: 80px;
+            margin-left: 250px;
+        }
+        &_logo_heading{
+            width: 258px;
+            margin: 6px;
+            span{
+                font-size: 20px;
+            }
+        }
+        &_info{
+            margin-right: -480px;
+            margin-top: 50px;
+        }
+        &_info_phone{
+            margin-top: -60px;
+            width: 350px;
+            height: 70px;
+        }
+        &_info_phone_icon{
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+        &_info_phone_btn{
+            padding-top: 25px;
+            margin-left: 20px;
+            font-size: 35px;
+        }
+        &_info_mail{
+            margin-top: -70px;
+            margin-left: 382px;
+            width: 280px;
+            height: 70px;
+        }
+        &_info_mail_icon{
+            padding-top: 15px;
+            padding-left: 35px;
+            height: 40px;
+        }
+        &_info_mail_c-mail{
+            padding-left: 22px;
+            font-size: 30px;
+            
+        }
+        &_info_icons{
+            text-align: center;
+            margin-top: 20px;
+        }
+        &_fons{
+            display: none;
+        }
+        &_fon{
+            margin-top: 250px;
+            min-width: 340%;
+        }
+}
+.main{
+    &_title_icons{
+        width: 15px;
+        margin-left: 50px;
+    }
+    &_title_text{
+        width: 380px;
+        margin-left: 90px;
+        margin-top: -100px;
+    }
+    &_wrap{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    &_goal_one{
+        width: 700px;
+        margin-left: -20px;
+    }
+    &_door_one{
+        width: 700px;
+        margin-top: 25px;
+    }
+    &_grat_one{
+        width: 700px;
+        margin-top: 25px;
+    }
+    &_goal_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 20px 100px ;
+    }
+    &_door_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 20px 190px ;
+    }
+    &_grat_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 15px 180px ;
+        margin-right: 95px;
+    }
+    &_req{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    &_fances_one{
+        width: 700px;
+        margin-top: 25px;
+    }
+    &_canopy_one{
+        width: 700px;
+        margin-top: 50px;
+    }
+    &_bed_one{
+        width: 700px;
+        margin-top: 50px;
+    }
+    &_fances_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        margin-left: 110px;
+        padding: 15px 180px ;
+    }
+    &_canopy_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 15px 110px ;
+        
+    }
+    &_bed_btn{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 15px 180px ;
+        margin-right: 115px;
+    }
+    &_chair{
+        margin-left: 50px;
+    }
+    &_chair_one{
+        width: 700px;
+        margin-top: 25px;
+    }
+    &_chair_btn_button{
+        margin-top: 50px;
+        width: 500px;
+        height: 85px;
+        font-size: 35px;
+        padding: 15px 120px ;
+        margin-left: 20px;
+    }
+    &_img_two{
+        display: none;
+    }
+
+}
+.work{
+    &_line{
+        width: 330%;
+    }
+    &_title_icons{
+        width: 15px;
+        margin-left: 50px;
+    }
+    &_title_text{
+        width: 500px;
+    }
+    &_block{
+        margin-left: 100px;
+    }
+    &_title_icons{
+        width: 15px;
+        margin-left: 50px;
+    }
+    &_info_one_icons{
+        height: 180px;
+    }
+    &_info_one_icon{
+        margin-left: -120px;
+        margin-top: 40px;
+        height: 90px;
+    }
+    &_info_one_block{
+        margin-top: -50px;
+    }
+    &_info_one_block_title{
+        font-size: 50px;
+        width: 600px;
+        margin-left: 50px;
+    }
+    &_info_one_block_text{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_info_two{
+        margin-top: 50px;
+    
+    }
+    &_info_two_icons{
+        height: 180px;
+    }
+    &_info_two_icon{
+        margin-left: -120px;
+        margin-top: 50px;
+        height: 90px;
+    }
+    &_info_two_block{
+        margin-top: -50px;
+    }
+    &_info_two_block_title{
+        font-size: 50px;
+        width: 600px;
+        margin-left: 50px;
+    }
+    &_info_two_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_info_free{
+        margin-top: 50px;
+    }
+    &_info_free_icons{
+        height: 180px;
+    }
+    &_info_free_icon{
+        margin-left: -130px;
+        margin-top: 50px;
+        height: 90px;
+    }
+    &_info_free_block{
+        margin-top: -50px;
+    }
+    &_info_free_block_title{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    &_info_free_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_info_fou{
+        margin-top: 50px;
+    }
+    &_info_fou_icons{
+        height: 180px;
+    }
+    &_info_fou_icon{
+        margin-left: -130px;
+        margin-top: 45px;
+        height: 95px;
+    }
+    &_info_fou_block{
+        margin-top: -50px;
+    }
+    &_info_fou_block_title{
+        font-size: 50px;
+        margin-left: 50px;
+
+    }
+    &_info_fou_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_servic{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    &_servic_one_icons{
+        height: 180px;
+    }
+    &_servic_one_icon{
+        margin-left: -120px;
+        margin-top: 50px;
+        height: 90px;
+    }
+    &_servic_one_block{
+        margin-top: -50px;
+    }
+    &_servic_one_block_title{
+        font-size: 50px;
+        width: 600px;
+        margin-left: 50px;
+    }
+    &_servic_one_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_servic_two{
+        margin-top: 50px;
+    }
+    &_servic_two_icons{
+        height: 180px;
+    }
+    &_servic_two_icon{
+        margin-left: -120px;
+        margin-top: 50px;
+        height: 90px;
+    }
+    &_servic_two_block{
+        margin-top: -50px;
+    }
+    &_servic_two_block_title{
+        font-size: 50px;
+        width: 600px;
+        margin-left: 50px;
+    }
+    &_servic_two_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_servic_free{
+        margin-top: 50px;
+    }
+    &_servic_free_icons{
+        height: 180px;
+    }
+    &_servic_free_icon{
+        margin-left: -140px;
+        margin-top: 50px;
+        height: 80px;
+    }
+    &_servic_free_block{
+        margin-top: -50px;
+    }
+    &_servic_free_block_title{
+        font-size: 50px;
+        width:600px;
+        margin-left: 40px;
+    }
+    &_servic_free_block_text{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    &_lines{
+        width: 330%;
+    }
+}
+.address{
+    &_title_icons{
+        width: 10px;
+    }
+    &_title_text{
+        width: 500px;
+        margin-top: -80px;
+        margin-left: 30px;
+    }
+    &_map{
+    display: none;
+    }
+    &_map_min{
+        margin-top: 70px;
+        margin-left: 100px;
+        min-height: 500px;
+        min-width: 800px;
+        background: url('../img/map_min.png') center (center / cover) no-repeat;
+    }
+    &_logo{
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    &_logo_heading{
+        width: 250px;
+        margin: 6px;
+        span{
+            margin: 12px;
+            font-size: 30px;
+        }
+    }
+    &_logo_icons{
+        height: 80px;
+    }
+    &_info{
+        display: inline-block;
+        margin-right: -600px;
+        margin-top: -200px;
+    }
+    &_info_phone{
+        margin-top: -60px;
+        width: 350px;
+        height: 70px;
+    }
+    &_info_phone_icon{
+        height: 40px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    &_info_phone_btn{
+        padding-top: 25px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    &_info_mail{
+        margin-top: 16px;
+        margin-left: 75px;
+        width: 280px;
+        height: 70px;
+    }
+    &_info_mail_icon{
+        padding-top: 15px;
+        padding-left: 35px;
+        height: 40px;
+    }
+    &_info_mail_c-mail{
+        padding-left: 22px;
+        font-size: 30px;
+        
+    }
+}
+.footer{
+    width: 330%;
+    height: 100px;
+    &_title{
+        font-size: 27px;
+        margin-top: 20px;
+        margin-left: -55px;
+    }
+    }
+
+}

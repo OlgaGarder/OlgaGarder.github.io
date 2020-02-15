@@ -1,0 +1,135 @@
+.header{
+    margin-top: -10px;
+    &_logo{
+        margin: 43px;
+        display: flex;
+    }
+    &_logo_heading{
+        width: 258px;
+        margin: 6px;
+        span{
+            margin: 12px;
+            color: #000000;
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+    &_nav{
+        margin:-20px;
+    }
+        &_nav_menu{
+            width:560px;
+            
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin-left: 55px;
+            padding-left: 0;
+            & li{
+                list-style-type: none;
+                position: relative;
+            }
+        }
+            &_nav_menu_item{
+                display: inline-block;
+                text-decoration: none;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 700;
+                position: relative;
+            }
+            &_nav_menu_item:hover:after {
+                opacity: 1;
+            }
+            &_nav_menu_item:after{
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 6px;
+
+                    background-color: #ffb41d;
+                    opacity: 0;
+
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    z-index: 1;
+
+                    transition: opacity .1s linear; 
+            }
+    &_fons{
+        float: right;
+        margin-top: -166px;
+        margin-right: 110px;
+    }
+    &_info{
+        position: relative;
+        float: right;
+        margin-left: 500px;
+        margin-top: -100px;
+    }
+    &_info_phone{
+        margin-top: -60px;
+        width: 199px;
+        height: 41px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        background-color: #ffb41d;
+    }
+    &_info_phone_icon{
+        padding-top:15px;
+        padding-left: 15px;
+    }
+    &_info_phone_btn{
+        text-align: center;
+        margin-left: 10px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 900;
+    }
+    &_info_mail{
+        margin-top: 6px;
+        margin-left: 32px;
+        width: 167px;
+        height: 41px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        background-color: #000000;
+    }
+    &_info_mail_icon{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    &_info_mail_c-mail{
+        color: #ffffff;
+        padding-left: 5px;
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    &_info_icons{
+        margin-left: 37px;
+        margin-top: 19px;
+    }
+    &_fon{
+        margin-top: 35px;
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('../img/Image_2.png');
+        background-size: cover;
+    }
+}   
+ 
+#header_nav_toggle{
+    opacity: 0;
+}

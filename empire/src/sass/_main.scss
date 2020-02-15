@@ -1,0 +1,137 @@
+.main{
+    &_block{
+        margin-top: 120px;
+    }
+    &_img{
+        display: flex;
+        
+    }
+    &_img_two{
+        float: right;
+        margin-top: -1410px;
+     }
+    &_title{
+        margin-top: -360px;
+    }
+    &_wrap{
+        display: flex;
+    }
+    &_goal{
+        margin-top: 35px;
+    }
+    &_door{
+        margin-top: 35px;
+    }
+    &_grat{
+        margin-top: 35px;
+    }
+    &_goal_btn{
+        display: inline-block;
+        width: 328px;
+        height: 52px;
+        margin-top: 17px;
+        margin-left: 26px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 70px ;
+    }
+    &_door_btn{
+        margin-left: 30px;
+        display: inline-block;
+        margin-top: 17px;
+        width: 328px;
+        height: 52px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 137px ;
+    }
+    &_grat_btn{
+        margin-left: 30px;
+        display: inline-block;
+        margin-top: 17px;
+        width: 328px;
+        height: 52px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 127px ;
+    }
+    &_req{
+        margin-top: 35px;
+        display: flex;  
+    }
+    &_fances_btn{
+        display: inline-block;
+        margin-left: 26px;
+        margin-top: 17px;
+        width: 328px;
+        height: 52px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 12px 129px ;
+    }
+    &_canopy_btn{
+        margin-left: 52px;
+        display: inline-block;
+        width: 328px;
+        height: 52px;
+        margin-top: 17px;
+        margin-left: 30px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 75px ;
+    }
+    &_bed_btn{
+        margin-left: 52px;
+        display: inline-block;
+        width: 328px;
+        height: 52px;
+        margin-top: 17px;
+        margin-left: 30px;
+        border-radius: 6px;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 129px ;
+    }
+    &_chair{
+        margin-top: 31px;
+    }
+    &_chair_btn{
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    &_chair_btn_button{
+        display: inline-block;
+        width: 328px;
+        height: 52px;
+        border-radius: 6px;
+        background-color: #000000;
+        color:#ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 12px 92px ;
+    }
+}

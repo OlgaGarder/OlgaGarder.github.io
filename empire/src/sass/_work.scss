@@ -1,0 +1,201 @@
+.work{
+    margin-top: 137px;
+    position: relative;
+    &_line{
+        background-color: #e3e3e3;
+        height: 2px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    &_title_text{
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+    &_block{
+        display: flex;
+        margin-top: 90px;
+    }
+    &_info_one{
+      display: flex;
+    }
+    &_info_one_icons{
+        height: 93px;
+    }
+    &_info_one_icon{
+        margin-left: -65px;
+        margin-top: 22px;
+        height: 48px;
+    }
+    &_info_one_block{
+        margin-left: 50px;
+        margin-top: -25px;
+        width: 381px;
+    }
+    &_info_one_block_title{
+        color: #000000;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    &_info_one_block_text{
+        margin-top: 15px;
+    }
+    &_info_two{
+        display: flex;
+        margin-top: 21px;
+      }
+      &_info_two_icons{
+          height: 93px;
+      }
+      &_info_two_icon{
+          margin-left: -70px;
+          margin-top: 22px;
+          height: 48px;
+      }
+      &_info_two_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_info_two_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_info_two_text{
+          margin-top: 15px;
+      }
+      &_info_free{
+        display: flex;
+        margin-top: 21px;
+      }
+      &_info_free_icons{
+          height: 93px;
+      }
+      &_info_free_icon{
+          margin-left: -70px;
+          margin-top: 22px;
+          height: 48px;
+      }
+      &_info_free_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_info_free_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_info_free_text{
+          margin-top: 15px;
+      }
+      &_info_fou{
+        display: flex;
+        margin-top: 21px;
+      }
+      &_info_fou_icons{
+          height: 93px;
+      }
+      &_info_fou_icon{
+          margin-left: -70px;
+          margin-top: 22px;
+          height: 48px;
+      }
+      &_info_fou_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_info_fou_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_info_fou_text{
+          margin-top: 15px;
+      }
+      &_servic{
+          margin-left: 50px;
+          
+      }
+      &_servic_one{
+        display: flex;
+      }
+      &_servic_one_icons{
+          height: 93px;
+      }
+      &_servic_one_icon{
+          margin-left: -65px;
+          margin-top: 22px;
+          height: 48px;
+      }
+      &_servic_one_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_servic_one_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_servic_one_block_text{
+          margin-top: 15px;
+      }
+      &_servic_two{
+        display: flex;
+        margin-top: 21px;
+      }
+      &_servic_two_icons{
+          height: 93px;
+      }
+      &_servic_two_icon{
+          margin-left: -70px;
+          margin-top: 22px;
+          height: 48px;
+      }
+      &_servic_two_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_servic_two_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_servic_two_block_text{
+          margin-top: 15px;
+      }
+      &_servic_free{
+        display: flex;
+        margin-top: 21px;
+      }
+      &_servic_free_icons{
+          height: 93px;
+      }
+      &_servic_free_icon{
+          margin-left: -65px;
+          margin-top: 30px;
+          height: 32px;
+      }
+      &_servic_free_block{
+          margin-left: 40px;
+          margin-top: -25px;
+          width: 381px;
+      }
+      &_servic_free_block_title{
+          color: #000000;
+          font-size: 25px;
+          font-weight: 400;
+      }
+      &_servic_free_block_text{
+          margin-top: 15px;
+      }
+    &_lines{
+        background-color: #e3e3e3;
+        height: 2px;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
