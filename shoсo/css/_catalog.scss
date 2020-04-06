@@ -1,0 +1,45 @@
+.catalog{
+    margin-top: 100px;
+    height: 1000px;
+    h1{
+        color:rgb(175, 55, 175);
+        font-size: 60px;
+
+        text-align: center;
+    }
+    .toys__wrapper {
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    .block{
+        display: flex;
+
+        margin-top: 50px;
+    }
+    .toys__item-info {
+        position: absolute;
+       
+        transform: translateY(calc(100% - 60px));
+        bottom: 0;
+        background: rgba(44, 26, 44, 0.66);
+        padding: 14px 24px 18px;
+        color: #fff;
+       
+        transition: .5s;
+    
+    
+    
+}
+    .toys__item-title {
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        min-height: 45px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+}

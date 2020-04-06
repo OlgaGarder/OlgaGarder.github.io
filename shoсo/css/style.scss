@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap&subset=cyrillic');
+
+$mon : 'Montserrat', ;
+$ro: 'Roboto', ;
+
+//colors
+$black:#000000;
+
+@import "_header";
+@import "_footer";
+
+
+@import "_slider";
+@import "_catalog";
+@import "_me";
+
+
+
+// main styles
+
+a, a:hover {
+	text-decoration: none;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+	}
+}
+
+textarea {
+	resize: none;
+}
+
+
+body {
+	// background-color: $lightBlue;
+	font-family: $ro;
+	font-style: normal;
+    font-weight: 500;
+    background-color: black;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1 {
+	font-family: $mon;
+	font-style: normal;
+	font-weight: bold;
+    line-height: 150%;
+
+    color:rgb(175, 55, 175);
+    font-size: 60px;
+
+    text-align: center;
+
+}    // border: 1px solid red;
+
+.btn{
+    float: right;
+    
+    position: relative;
+
+    bottom: 30px;
+    
+
+    width: 199px;
+    height: 41px;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+
+    background-color: rgb(150, 32, 144);
+    
+    
+    font-family: $mon;
+	font-style: normal;
+	font-weight: 400;
+    font-size: 18px;
+
+    padding-top: 8px;
+    padding-left: 15px;
+    a{
+        color: #ffffff;
+        &:hover {
+            color: $black;
+        }
+    }
+}
+.toys__item {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: center center no-repeat #fff;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 4px 4px 15px rgba(0,0,0,.35);
+    box-shadow: 4px 4px 15px rgba(0,0,0,.35);
+    overflow-y: hidden;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.catalog_btn{
+    text-decoration: none;
+	font-family: $mon;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	// line-height: 27px;
+	width: 200px;
+	height: 40px;
+	color:#ffffff;
+
+
+    background-color: rgb(141, 27, 126);
+    box-shadow: 0px 5px 10px rgba(133, 28, 71, 0.2);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: ease .4s;
+	text-decoration: none;
+
+    
+	&:hover {
+		background-color: rgb(95, 24, 102);
+		color:#fff;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+	}
+}
