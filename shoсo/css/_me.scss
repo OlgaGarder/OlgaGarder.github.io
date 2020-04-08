@@ -1,0 +1,29 @@
+.me{
+   position: relative;
+   bottom: 60px;
+
+   height: 700px;
+   .block{
+    display: flex;
+   }
+   .photo{ 
+       margin-top: 80px;
+       .fon{
+           position: absolute;
+           width: 400px;
+           height: 420px;
+           color: rgb(192, 172, 194);
+           border-style: solid;
+           border-radius: 5px;
+           .my{
+               margin-left: 20px;
+                position: relative;
+                bottom: 10px;
+           }
+       }
+   }
+   .about{
+    color: #fff;
+   }
+
+}
