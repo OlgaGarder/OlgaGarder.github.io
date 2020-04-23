@@ -1,0 +1,352 @@
+
+
+.advantages {
+	// margin-bottom: 100px;
+
+	overflow: hidden;
+	width: 100%;
+	// min-height: 675px;
+	background-color: $notWhite;
+	padding-top: 38px;
+
+	background-image: url('../img/advantages-pic4.png');
+	background-repeat: no-repeat;
+	background-position: 145% center;
+
+	h2 {
+		text-align: center;
+		margin-bottom: 47px;
+	}
+
+	.wrap_advantages {
+		// background-color: #eee;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		a.item {
+			
+			width: 173px;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 58px;
+
+
+			img {
+				margin-bottom: 15px;
+
+
+				&.one {
+					margin-bottom: 39px;
+				}
+			}
+
+
+			p.txt {
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 20px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				transition: ease .4s;
+				color: #000;
+			}
+		}
+
+		a.item:hover p{
+			color:#0383D1;
+		}
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 1600px) {
+  .advantages {
+
+		background-position: 220% center;
+	
+		h2 {
+			text-align: center;
+			margin-bottom: 47px;
+		}
+	
+		.wrap_advantages {
+			// background-color: #eee;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+	
+			a.item {
+				
+				width: 173px;
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 58px;
+	
+	
+				img {
+					margin-bottom: 15px;
+	
+	
+					&.one {
+						margin-bottom: 39px;
+					}
+				}
+	
+	
+				p.txt {
+					font-weight: bold;
+					font-size: 16px;
+					line-height: 20px;
+					display: flex;
+					align-items: center;
+					text-align: center;
+					transition: ease .4s;
+					color: #000;
+				}
+			}
+	
+			a.item:hover p{
+				color:#0383D1;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 1440px) {
+
+	.advantages {
+
+		background-position: 450% center;
+	
+		h2 {
+			text-align: center;
+			margin-bottom: 47px;
+		}
+	
+		.wrap_advantages {
+			// background-color: #eee;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+	
+			a.item {
+				
+				width: 173px;
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 58px;
+	
+	
+				img {
+					margin-bottom: 15px;
+	
+	
+					&.one {
+						margin-bottom: 39px;
+					}
+				}
+	
+	
+				p.txt {
+					font-weight: bold;
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+	
+			a.item:hover p{
+				color:#0383D1;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  .advantages {
+
+		background-position: 950% center;
+	
+		h2 {
+			text-align: center;
+			margin-bottom: 47px;
+		}
+	
+		.wrap_advantages {
+			// background-color: #eee;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+	
+			a.item {
+				
+				width: 173px;
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 58px;
+	
+	
+				img {
+					margin-bottom: 15px;
+	
+	
+					&.one {
+						margin-bottom: 39px;
+					}
+				}
+	
+	
+				p.txt {
+					font-weight: bold;
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+	
+			a.item:hover p{
+				color:#0383D1;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 1200px) {
+	.advantages {
+
+		background-position: 600px center;
+	
+		h2 {
+			text-align: center;
+			margin-bottom: 47px;
+		}
+	
+		.wrap_advantages {
+			// background-color: #eee;
+			//background-color: rgba(#eee, .7);
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+	
+			a.item {
+				
+				width: 173px;
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 58px;
+	
+	
+				img {
+					margin-bottom: 15px;
+	
+	
+					&.one {
+						margin-bottom: 39px;
+					}
+				}
+	
+	
+				p.txt {
+					font-weight: bold;
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+	
+			a.item:hover p{
+				color:#0383D1;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1024px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+  
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+  
+}

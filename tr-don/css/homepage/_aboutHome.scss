@@ -1,0 +1,40 @@
+
+
+.aboutHome {
+	background-image: url('../img/about-home.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	
+	// min-height: 831px;
+	// margin-bottom: 48px;
+
+	padding-top: 103px;
+	padding-bottom: 86px;
+
+	.videoSide {
+		margin-top: 43px;
+
+		video {
+			outline: none;
+		}
+	}
+
+	.innerAbout {
+		margin-left: 88px;
+
+		h2 {
+			color:#fff;
+		}
+	
+		p {
+			color:#fff;
+		}
+
+		a.bt270x70 {
+			margin-top: 73px;
+		}
+	}
+
+
+}
