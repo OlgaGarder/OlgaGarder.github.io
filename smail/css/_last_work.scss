@@ -1,0 +1,53 @@
+.last_work{
+    padding-top: 80px;
+    .content{
+        padding: 0 250px;
+    }
+    .just{
+       .slider{
+           position: relative;
+           left: 120px;
+       }
+    }
+    .doposle{
+        position: relative;
+        top: 40px;
+        left: 20px;
+        height: 0;
+    }
+    .slide_content{
+       margin-top: 20px;
+       display: flex;
+    }
+    .line{
+        position: relative;
+        top: 5px;
+        img{
+            width: 1140px;
+        }
+    }
+    .block{
+        margin-left: 32px;
+        margin-top: 15px;
+    }
+    .title{
+        color: #303a4b;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .titlesub{
+        color: #3399ff;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 28px;
+        font-weight: 600;
+    }
+    .text{
+        padding-top: 10px;
+    }
+    .scroll{
+        position: relative;
+        top: 20px;
+        left: 120px;
+    }
+}

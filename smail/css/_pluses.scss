@@ -1,0 +1,68 @@
+.pluses{
+    margin-top: 100px;
+    background-color: #d6ebff;
+    height: 707px;
+    .content{
+        padding: 0 250px;
+    }
+    h2{
+        padding-top: 80px;
+    }
+    .main{
+        display: grid;
+    }
+    .wrapeed{
+        display: flex;
+    }
+    .flex{
+        display: flex;
+    }
+    .num{
+        color: #3399ff;
+        font-size: 45px;
+        opacity: 0.8;
+        line-height: 21.8px;
+        padding: 40px 25px;
+    }
+    .title{
+        padding: 35px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .text{
+        position: relative;
+        bottom: 20px;
+        width: 370px;
+        line-height: 28px;
+    }
+    .block_one{
+        background-color: #fff;
+        width: 555px;
+        height: 220px;
+
+        margin-top: 43px;
+    }
+    .block_two{
+        background-color: #fff;
+        width: 555px;
+        height: 220px;
+
+        margin-top: 43px;
+        margin-left: 31px;
+    }
+    .block_free{
+        background-color: #fff;
+        width: 555px;
+        height: 220px;
+
+        margin-top: 30px;
+    }
+    .block_fou{
+        background-color: #fff;
+        width: 555px;
+        height: 220px;
+
+        margin-top: 30px;
+        margin-left: 31px;
+    }
+}

@@ -1,0 +1,29 @@
+.top_header{
+    background-color: rgb(234, 241, 241);
+    height: 45px;
+    padding: 0 250px;
+    .block{
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        .version{
+            display: flex;
+            img{
+                width: 39px;
+                height: 21px;
+                margin-top: -2px;
+            }
+            p{
+                color: #303a4b;
+                font-size: 14px;
+                margin-left: 11px;
+            }
+        }
+        .social{
+           margin-top: -5px;
+            img{
+                padding-left: 15px;
+            }
+        }
+    }
+}

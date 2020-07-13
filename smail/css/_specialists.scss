@@ -1,0 +1,72 @@
+.specialists{
+    padding-top: 100px;
+    .content{
+        padding: 0 250px;
+    }
+    .just{
+        .slider{
+            position: relative;
+            left: 120px;
+        }
+     }
+    .slide_cart{
+        margin-top: 46px;
+        display: flex;
+    }
+    .item{
+        border: 2px solid #f9fcff;
+        
+        width: 262px;
+        height: 447px;
+        margin-left: 31px;
+        img{
+            padding: 17px 15px;
+            width: 232px;
+            height: 231px;
+        }
+        .full_name{
+           padding: 30px 50px;
+           color: #303a4b;
+           font-size: 18px;
+           span{
+               margin-left: 30px;
+           }
+        }
+        .line{
+            position: relative;
+            bottom: 30px;
+            left: 75px;
+            height: 0;
+            img{
+                width: 67px;
+                height: 1px;
+            }
+        }
+        .status{
+            color: #3399ff;
+            padding: 7px 55px;
+        }
+        .items{
+          position: relative;
+          left: 25px;
+        }
+        .status_items{
+            position: relative;
+            left: 8px;
+        }
+        .name_style{
+            width: 200px;
+        }
+        .styles{
+          position: relative;
+          left: 20px;
+        }
+        .styles_name{
+           position: relative;
+           left: 23px;
+        }
+    }
+    .style{
+        margin-left: 0px;
+    }
+}

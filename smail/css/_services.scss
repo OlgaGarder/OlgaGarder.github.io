@@ -1,0 +1,184 @@
+.services{
+    padding-top: 100px;
+    .content{
+        padding: 0 250px;
+    }
+    .cart_menu{
+        display: grid;
+    }
+    .block{
+        display: flex;
+        padding-top: 42px;
+        .cart{
+            border: solid rgba(240, 240, 240, 0.856);
+            width: 286px;
+            height: 275px;
+            img{
+                padding: 40px 100px;
+            }
+            .title{
+                font-size: 28px;
+                color: #303a4b;
+                font-weight: 600;
+                padding-left: 55px;
+                margin-top: -25px;
+                .gigi{
+                    position: relative;
+                    left: 70px;
+                }
+            }
+            .items{
+                position: relative;
+                right: 30px;
+            }
+            .text{
+                color: #303a4b;
+                font-size: 19px;
+                line-height: 28px;
+                padding-top: 20px;
+                padding-left: 55px;
+                .sub_title{
+                   position: relative;
+                   left: -1px;
+                }
+                .yslug{
+                    position: relative;
+                   left: -17px;
+                }
+            }
+            .chistka_text{
+                position: relative;
+                right: 25px;
+                bottom: 10px;
+            }
+            .zyb{
+               position: relative;
+               left: 50px;
+            }
+            .seb_text{
+              padding-left: 15px;
+            }
+			.otbel{
+                position: relative;
+                left: 25px;
+            }
+            .otbels{
+                position: relative;
+                left: 12px;
+            }
+            
+           
+        }
+    }
+    .block_two{
+        display: flex;
+        .cart{
+            border: solid rgba(240, 240, 240, 0.856);
+            width: 286px;
+            height: 275px;
+            img{
+                padding: 40px 100px;
+            }
+            .title{
+                font-size: 28px;
+                color: #303a4b;
+                font-weight: 600;
+                padding-left: 35px;
+               position: relative;
+               bottom: 20px;
+            }
+            .text{
+                color: #303a4b;
+                font-size: 19px;
+                line-height: 28px;
+                padding-left: 20px;
+                
+            }
+            .lechenie{
+                position: relative;
+                left: 50px;
+            }
+            .delite{
+                position: relative;
+                right: 15px;
+               
+            }
+            .sox{
+                position: relative;
+                left: 20px;
+            }
+            .zub_delete{
+                position: relative;
+                left: 15px;
+            }
+            .speed{
+                position: relative;
+                left: 15px;
+            }
+            .implat{
+                position: relative;
+                left: 50px;
+            }
+            .ystanovka{
+                position: relative;
+                bottom: 15px;
+            }
+            .text_ysstan{
+                position: relative;
+                left: 18px;
+            }
+        }
+    }
+    .block_free{
+        display: flex;
+        .cart{
+            border: solid rgba(240, 240, 240, 0.856);
+            width: 286px;
+            height: 275px;
+            img{
+                padding: 40px 100px;
+            }
+            .title{
+                font-size: 28px;
+                color: #303a4b;
+                font-weight: 600;
+                padding-left: 58px;
+                position: relative;
+                bottom: 20px;
+            }
+            .text{
+                color: #303a4b;
+                font-size: 19px;
+                line-height: 28px;
+                padding-left: 55px;
+                position: relative;
+                bottom: 10px;
+                
+            }
+            .koron{
+                position: relative;
+                left: 14px;
+            }
+            .text_ystan{
+                position: relative;
+                left: 20px;
+            }
+            .text_restav{
+                position: relative;
+                right: 20px;
+            }
+            .color{
+                position: relative;
+                left: 20px;
+            }
+            .text_protez{
+                position: relative;
+                right: 25px;
+            }
+            .texhnol{
+                position: relative;
+                left: 18px;
+            }
+        }
+    }
+}

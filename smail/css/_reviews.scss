@@ -1,0 +1,102 @@
+.reviews{
+    margin-top: 100px;
+    background-color: #d6ebff;
+    height: 647px;
+    .content{
+        padding: 0 250px;
+    }
+    .just{
+        padding-top: 80px;
+        .slider{
+            position: relative;
+            left: 120px;
+        }
+     }
+
+    .number{
+        color: #a5d2ff;
+    }
+    .slide_main{
+        background-color: #fff;
+        height: 310px;
+        width: 1140px;
+        margin-top: 50px;
+    }
+    .block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .name{
+        padding: 31px 25px;
+       display: grid;
+       .item{
+            .titlesub{
+                color:  #3399ff;
+                line-height: 28px;
+            }
+        }
+    }
+    .name_flex{
+        display: flex;
+        img{
+            width: 140px;
+            height: 149px;
+        }
+       .full_name{
+           padding-left: 25px;
+           padding-top: 15px;
+           .mail{
+            color: #3399ff;
+           }
+           .name{
+               position: relative;
+               bottom: 20px;
+               right: 25px;
+               width: 20px;
+
+               font-size: 18px;
+               font-weight: 700;
+           }
+           .bithday{
+               position: relative;
+               bottom: 45px;
+           }
+           .fife{
+               position: relative;
+               bottom: 25px;
+                width: 133px;
+                height: 16px;
+
+           }
+       }
+    }
+    .line{
+        position: relative;
+        top: 41px;
+
+    }
+    .rev_main{
+        width: 620px;
+        height: 211px;
+        line-height: 28px;
+        position: relative;
+        right: 28px;
+        top: 41px;
+    }
+    .scroll{
+        position: relative;
+        top: 41px;
+        right: 26px;
+    }
+    .btn{
+        margin-top: 50px;
+        .bt262_style{
+            background-color: rgba(255, 255, 255, 0);
+           left: 0px;
+        }
+        .bt262{
+            left: 280px;
+            top: 2px;
+        }
+    }
+}
