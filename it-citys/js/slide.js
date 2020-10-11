@@ -1,0 +1,17 @@
+$('.owl-carousel').owlCarousel({
+    items:2,
+     dots:true,
+      nav:true,
+      merge:true,
+    responsive:{
+         0:{
+           items:1
+          },
+          768:{
+           items:1
+          },
+          1180:{
+           items:2
+        }
+      }
+  });
